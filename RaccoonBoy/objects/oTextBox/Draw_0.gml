@@ -17,4 +17,4 @@ draw_text_ext(x+Padding,y+Padding,Print,25,MaxLength)
 
 
 //HEj hej
-
+// nejnej
