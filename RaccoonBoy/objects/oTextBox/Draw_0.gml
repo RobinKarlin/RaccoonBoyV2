@@ -7,7 +7,7 @@ if Time < TextLength {
 }
 
 //Sprite that the text is drawn on
-draw_sprite(sTextBox,0,x,y)
+draw_sprite(sTextBox,-1,x,y)
 
 //Text settings
 draw_set_font(Font)

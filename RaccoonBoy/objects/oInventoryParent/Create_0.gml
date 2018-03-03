@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Inventoryvariables
+inventoryrow = 3;
+inventorycolumn = 4; 
 
 //Creating new layers for inventory to make sure it overlaps all other layers.
 //Inventorylayer
@@ -28,9 +31,7 @@ if layer_exists(global.inventorylayerID)
 }
 
 
-//Inventoryvariables
-inventoryrow = 3;
-inventorycolumn = 4; 
+
 
 //Creating inventoryitems
 createrow = 0;
