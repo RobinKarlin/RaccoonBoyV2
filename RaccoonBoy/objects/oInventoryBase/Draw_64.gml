@@ -8,8 +8,8 @@ var runonce = false
 {
 	adaptivex = 1 + oInventoryParent.inventorycolumn * (1 + oInventoryItems.sprite_width);
 	adaptivey = 1 + oInventoryParent.inventoryrow * (1 + oInventoryItems.sprite_height);
-	var posx = (camera_get_view_width(view_camera[0]) / 2) - (sprite_width / 2);
-	var posy = (camera_get_view_height(view_camera[0]) / 2) + middleoffset;
+	posx = (camera_get_view_width(view_camera[0]) / 2) - (sprite_width / 2);
+	posy = camera_get_view_height(view_camera[0]) - adaptivey - middleoffset;
 	runonce = true;
 }
 
