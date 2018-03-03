@@ -71,5 +71,7 @@ if hp <= 0
 	instance_destroy();
 }
 
-
+//Final movement
+x = x + hsp;
+y = y + vsp;
 

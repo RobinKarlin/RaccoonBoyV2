@@ -2,10 +2,6 @@
 // You can write your code in this editor
 
 
-//Inventoryvariables
-inventoryrow = 3;
-inventorycolumn = 4;
-
 //Creating new layers for inventory to make sure it overlaps all other layers.
 //Inventorylayer
 if !layer_exists("inventorylayer")
@@ -31,16 +27,26 @@ if layer_exists(global.inventorylayerID)
 	instance_create_layer(0, 0, global.inventorylayerID, oInventoryBase);
 }
 
+
+//Inventoryvariables
+inventoryrow = 3;
+inventorycolumn = 4; 
+
 //Creating inventoryitems
-localvar = 0;
-createrow = 1;
-for (createrow = 1; createrow < inventoryrow; createrow ++)
+createrow = 0;
+createcolumn = 0;
+inventoryidcreate = 1;
+
+for (createrow = 0; createrow < inventoryrow; createrow ++)
 {
-	for (localvar = 0; localvar < inventorycolumn; localvar ++;)
+	for (createcolumn = 0; createcolumn < inventorycolumn; createcolumn ++;)
 	{
 	     with(instance_create_layer(oInventoryBase.x, oInventoryBase.y + 1, global.inventorylayerID1, oInventoryItems))
 			{
-				inventoryid = (oInventoryParent.localvar + (oInventoryParent.createrow * 10));
+				inventoryid = oInventoryParent.inventoryidcreate;
+				rowid = oInventoryParent.createrow;
+				columnid = oInventoryParent.createcolumn;
 			}
+		inventoryidcreate ++;
 	}
 }
