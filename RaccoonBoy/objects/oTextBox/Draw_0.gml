@@ -15,6 +15,20 @@ draw_set_halign(fa_left)
 draw_set_color(c_black)
 draw_text_ext(x+Padding,y+Padding,Print,25,MaxLength)
 
+<<<<<<< HEAD
 //Trying out github inside GMS
 
 
+=======
+
+//HEj hej
+
+// nejnej
+
+//dumed
+
+
+
+
+//drururrp
+>>>>>>> parent of 0883b56... Testing conflicting stuff
