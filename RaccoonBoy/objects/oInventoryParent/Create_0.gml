@@ -6,6 +6,9 @@
 //Inventoryvariables
 inventoryrow = 3;
 inventorycolumn = 4; 
+<<<<<<< HEAD
+>>>>>>> parent of a548d72... oinventorysetup
+=======
 >>>>>>> parent of a548d72... oinventorysetup
 
 //Creating new layers for inventory to make sure it overlaps all other layers.
