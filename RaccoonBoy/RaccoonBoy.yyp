@@ -487,14 +487,6 @@
             }
         },
         {
-            "Key": "95af2f74-5f01-4e10-a2f5-f5c0af21a2a2",
-            "Value": {
-                "id": "28ee0166-a360-467d-8e25-3ddc1d4c4552",
-                "resourcePath": "objects\\oTextBoxSprite\\oTextBoxSprite.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9af64606-ada0-44c3-960d-dcfdbad9cddd",
             "Value": {
                 "id": "4942f55f-89a7-4025-9546-a9c47aaf890c",
@@ -804,14 +796,6 @@
                 "id": "0142931b-fc87-4054-bdc2-ce0e30e4fd05",
                 "resourcePath": "views\\fea5411b-f1e4-4537-bfd2-c2daa681c287.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "feb63a6b-39dc-45d1-a029-00ac5f9ab1e6",
-            "Value": {
-                "id": "355eabc4-5edc-4cf6-a12e-722ae4e6bfa7",
-                "resourcePath": "objects\\oGUI\\oGUI.yy",
-                "resourceType": "GMObject"
             }
         }
     ],

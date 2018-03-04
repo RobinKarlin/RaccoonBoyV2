@@ -2,27 +2,18 @@
 ///@argument Speed
 ///@argument X
 ///@argument Y
-///@argument Name
 
 //Creates a variable containing the textbox object
-Text = instance_create_depth(argument2,argument3,-100,oTextBox)
-
-if !instance_exists(oTextBoxSprite) {
-TextBox = instance_create_depth(argument2,argument3,-50,oTextBoxSprite)
-}
+Text = instance_create_layer(argument2,argument3,"Text",oTextBox)
 
 /* The variable "Text" also contains following attributes. These are used in the "oTextBox" when 
 created in the game */
 with (Text) {
-	Padding = 15
-	TopPadding = 50
-	NamePlacement = sprite_get_width(sTextBox)
-	MaxLength = sprite_get_width(sTextBox) - 25
+	Padding = 35
+	MaxLength = sprite_get_width(sTextBox) - 65
 	MaxTextHeight = sprite_get_height(sTextBox) - 50
-	MinTextHeight = sprite_get_height(sTextBox) - 50
 	Text = argument0
 	Speed = argument1
-	Name = argument4
 	Font = fInGame
 
 	TextLength = string_length(Text)
