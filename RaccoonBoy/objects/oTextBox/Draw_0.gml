@@ -7,7 +7,7 @@ if Time < TextLength {
 }
 
 //Sprite that the text is drawn on
-draw_sprite(sTextBox,0,x,y)
+draw_sprite(sTextBox,-1,x,y)
 
 //Text settings
 draw_set_font(Font)
@@ -15,3 +15,14 @@ draw_set_halign(fa_left)
 draw_set_color(c_black)
 draw_text_ext(x+Padding,y+Padding,Print,25,MaxLength)
 
+
+//HEj hej
+
+// nejnej
+
+//dumed
+
+
+
+
+//drururrp
