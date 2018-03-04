@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+<<<<<<< HEAD
+=======
+//Inventoryvariables
+inventoryrow = 3;
+inventorycolumn = 4; 
+>>>>>>> parent of a548d72... oinventorysetup
 
 //Creating new layers for inventory to make sure it overlaps all other layers.
 //Inventorylayer

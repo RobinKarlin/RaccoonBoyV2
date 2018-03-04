@@ -5,8 +5,14 @@
 
 /* if inventoryid < 10
 {
+<<<<<<< HEAD
 	x = oPlayer.x - (oInventoryBase.sprite_width / 2) + 1 +  (sprite_width * inventoryid) + (inventoryid);
 	y = oPlayer.y + (oInventoryBase.sprite_height) + 1;
+=======
+	xoffset = 1 + (1 + sprite_width) * columnid;
+	yoffset = 1 + (1 + sprite_height) * rowid;
+	runonceflag = true;
+>>>>>>> parent of a548d72... oinventorysetup
 }
 else
 {
