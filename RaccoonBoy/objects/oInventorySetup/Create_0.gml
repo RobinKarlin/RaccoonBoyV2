@@ -12,3 +12,9 @@ inventoryypadding = 1; //The amount of pixels between each inventorycell and bet
 inventoryheightoffset = 128; //The amount of pixels between bottom screen border and the bottom inventoryborder.
 
 
+//test
+inventoryfound = noone;
+
+val = noone;
+lowest = noone;
+lowest_val = -1;
