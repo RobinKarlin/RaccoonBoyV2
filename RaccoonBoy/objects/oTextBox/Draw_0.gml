@@ -18,10 +18,13 @@ draw_text_ext(x+Padding,y+Padding,Print,25,MaxLength)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Trying out github inside GMS
 
 
 =======
+=======
+>>>>>>> parent of 0883b56... Testing conflicting stuff
 =======
 >>>>>>> parent of 0883b56... Testing conflicting stuff
 =======
@@ -38,6 +41,10 @@ draw_text_ext(x+Padding,y+Padding,Print,25,MaxLength)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+//drururrp
+>>>>>>> parent of 0883b56... Testing conflicting stuff
+=======
 //drururrp
 >>>>>>> parent of 0883b56... Testing conflicting stuff
 =======
