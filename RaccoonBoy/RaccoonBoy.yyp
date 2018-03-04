@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1bbdb589-1d6d-4fe1-86fe-2edd0f6abc79",
+            "Value": {
+                "id": "f0ac0257-c283-4574-8525-0a3173f3f030",
+                "resourcePath": "objects\\oInventorySetup\\oInventorySetup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1bde8812-c58e-4df6-9c75-22d733fd8d0e",
             "Value": {
                 "id": "85d3df4a-9bf6-4dd5-9488-b18ba1131ad1",

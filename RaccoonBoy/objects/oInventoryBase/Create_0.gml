@@ -5,4 +5,4 @@ adaptivex = 1;
 adaptivey = 1;
 posx = noone;
 posy = noone;
-middleoffset = 128;
+middleoffset = oInventorySetup.inventoryheightoffset;

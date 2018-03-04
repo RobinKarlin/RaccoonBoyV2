@@ -3,7 +3,7 @@
 
 if runonceflag = false
 {
-	xoffset = 1 + (1 + sprite_width) * columnid;
-	yoffset = 1 + (1 + sprite_height) * rowid;
+	xoffset = oInventorySetup.inventoryxpadding + (oInventorySetup.inventoryxpadding + sprite_width) * columnid;
+	yoffset = oInventorySetup.inventoryypadding + (oInventorySetup.inventoryypadding + sprite_height) * rowid;
 	runonceflag = true;
 }
