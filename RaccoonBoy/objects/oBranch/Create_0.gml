@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-draw_text(x,y, "" + string(lowest))
+itemid = 3;

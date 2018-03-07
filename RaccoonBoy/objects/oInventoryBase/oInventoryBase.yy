@@ -5,7 +5,7 @@
     "name": "oInventoryBase",
     "eventList": [
         {
-            "id": "90f80a53-acec-4b4b-9add-f942d628459d",
+            "id": "65f73d1e-2d54-4d57-bfa3-fe3b8b0ea93b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "562cac85-e195-443f-b53b-71db06c2eef7"
         },
         {
-            "id": "e62ece2c-ef39-4c08-bde3-57abbbe7d9ff",
+            "id": "e25a96c9-9445-417e-9aef-b082c8cae5ac",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "562cac85-e195-443f-b53b-71db06c2eef7"
         },
         {
-            "id": "9f74e467-4f27-4614-9101-da30f024ba19",
+            "id": "a0500934-e6db-4676-b959-012d28cb95ff",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "562cac85-e195-443f-b53b-71db06c2eef7"
         },
         {
-            "id": "7daca44d-6d56-422c-85fb-7e7027f64bcc",
+            "id": "9181d534-74a4-4875-a8d4-6c613025f6a0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

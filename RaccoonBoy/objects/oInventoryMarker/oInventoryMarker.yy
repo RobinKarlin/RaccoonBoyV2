@@ -5,7 +5,7 @@
     "name": "oInventoryMarker",
     "eventList": [
         {
-            "id": "d4d095ae-99cd-4f4d-8a8e-1a5b2b5ff3d9",
+            "id": "0403d2d8-418a-451e-a792-15f7a96c5d1a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "3b752577-6fd0-43d6-8297-98be685f999f"
         },
         {
-            "id": "d5edab7a-fc83-4e88-838b-2e847617079e",
+            "id": "502cc874-fa5d-43b9-8f51-45f03d161457",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

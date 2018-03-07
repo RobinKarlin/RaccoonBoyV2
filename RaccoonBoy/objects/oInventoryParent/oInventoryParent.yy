@@ -5,7 +5,7 @@
     "name": "oInventoryParent",
     "eventList": [
         {
-            "id": "c39d2b86-c31f-4cd3-a62d-74580d0729a5",
+            "id": "d0e95ee5-7c70-48f9-b912-4d351f5a4170",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

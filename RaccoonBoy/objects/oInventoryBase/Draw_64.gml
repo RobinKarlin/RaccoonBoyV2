@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(30,30, instance_number(oInventoryItems));
-draw_text(30,60, string(camera_get_active()));
-draw_text(30,80, string(instance_id_get(oInventoryMarker)));
+
 
 var runonce = false
 {

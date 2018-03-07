@@ -42,7 +42,7 @@ if layer_exists(global.inventorylayerID)
 //Creating inventoryitems
 createrow = 0;
 createcolumn = 0;
-inventoryidcreate = 1;
+inventoryidcreate = 0;
 
 for (createrow = 0; createrow < inventoryrow; createrow ++)
 {
@@ -57,3 +57,7 @@ for (createrow = 0; createrow < inventoryrow; createrow ++)
 		inventoryidcreate ++;
 	}
 }
+
+
+//Run oInventorySetup's user event
+

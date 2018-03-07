@@ -63,3 +63,4 @@ movementstart = false;
 
 //Create object oInventorySetup
 instance_create_layer(x + 200, y + 200, layer, oInventorySetup);
+

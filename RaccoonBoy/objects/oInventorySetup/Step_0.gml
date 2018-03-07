@@ -3,25 +3,27 @@
 
 
 
-with (oInventoryItems) {
-  self.val = inventoryid;
-  if (self.lowest == noone || self.val < self.lowest_val) {
-    self.lowest = id;
-    lowest_val = val;
-  }
-}
-if (lowest != noone) {
-  /* Use lowest here */
-}
 
-
-
-/*
-if keyboard_check_pressed(ord("L"))
+//Finding lowest oInventoryItems.inventoryid
+if oPlayer.key_button3
 {
-	with oInventoryItems
+	with (oInventoryItems) 
 	{
-	
+	other.val = inventoryid;
+	if (other.instanceid == noone || other.val < other.lowest_val) 
+		  {
+		    other.instanceid = id;
+		    other.lowest_val = other.val;
+		  }
 	}
 }
+
+if (lowest_val != noone) 
+{
+  with (instanceid)
+	{
+		
+	}
+}
+
 

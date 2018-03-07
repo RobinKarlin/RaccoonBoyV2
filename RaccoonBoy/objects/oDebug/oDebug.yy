@@ -5,12 +5,22 @@
     "name": "oDebug",
     "eventList": [
         {
-            "id": "f562f346-42d6-49e7-93d6-b938ff8c75c7",
+            "id": "470cab33-ee1b-4aea-a994-78b098627f6d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "eb3527c4-12cf-4c98-8152-9531ce2d5cca"
+        },
+        {
+            "id": "62eed90e-94c6-4eb4-9d97-9da19d3c15f2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
             "eventtype": 8,
             "m_owner": "eb3527c4-12cf-4c98-8152-9531ce2d5cca"
         }
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "dc246466-12b3-4536-9612-3c04848fa402",
     "visible": true
 }
