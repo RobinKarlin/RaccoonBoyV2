@@ -5,3 +5,5 @@ Time = 0
 Depth = depth - instance_number(oTextBox)
 DestroyTimer = 250
 BoxPlacementPadding = 30
+TextCharCounter = 0
+TotalAmountOfText = 0

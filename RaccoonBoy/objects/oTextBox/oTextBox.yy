@@ -5,7 +5,7 @@
     "name": "oTextBox",
     "eventList": [
         {
-            "id": "6dd123b5-2609-4ca0-87ef-8d68644f778b",
+            "id": "b85fb76e-c3e0-434c-86e9-f24ccbf929c3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "47118454-f1cd-4b95-9c1e-45327b128727"
         },
         {
-            "id": "dc9490bc-bd85-4b4c-802a-89ce51dbb529",
+            "id": "c689763d-2254-4e43-b8b6-4781502ed948",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "47118454-f1cd-4b95-9c1e-45327b128727"
         },
         {
-            "id": "d020c1f4-d4c2-48c4-99a4-10cdb98f8c7e",
+            "id": "f480d99d-57dd-4619-8796-5acf8603de0c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

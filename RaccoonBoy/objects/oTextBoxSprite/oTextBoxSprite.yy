@@ -5,7 +5,7 @@
     "name": "oTextBoxSprite",
     "eventList": [
         {
-            "id": "a9a79cf5-47c4-48b9-9468-a9a2b8dfbf00",
+            "id": "8a885596-73f0-46ac-98c7-a8921e5a3172",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "95af2f74-5f01-4e10-a2f5-f5c0af21a2a2"
         },
         {
-            "id": "ee3e1e21-9536-48e3-846e-e2cf0ba76ad3",
+            "id": "b9fd9eb5-adc1-4a84-8f79-2251e1a2433f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
