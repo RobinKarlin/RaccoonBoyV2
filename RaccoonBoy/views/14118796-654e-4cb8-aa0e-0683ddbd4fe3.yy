@@ -13,7 +13,8 @@
         "f9445a9b-f45e-4693-b3f2-84cf7d17c326",
         "49923a72-bae4-43bc-8ae6-b04494d2d529",
         "7cb64d09-382d-4e43-9c22-ceefb9fa802d",
-        "086105ce-f4f7-484d-b569-a41f3b388d20"
+        "086105ce-f4f7-484d-b569-a41f3b388d20",
+        "7228e3bf-fa33-4e33-9785-c89fe2efd555"
     ],
     "filterType": "GMObject",
     "folderName": "PlaceHolders",
