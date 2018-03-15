@@ -1,4 +1,4 @@
-if oPlayer.key_use = true {
+if oPlayer.key_button2 = true {
 	if Page + 1 < array_length_1d(Text) {
 		Page += 1
 		charCount = 0

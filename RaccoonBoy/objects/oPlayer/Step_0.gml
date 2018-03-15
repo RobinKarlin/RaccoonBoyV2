@@ -17,11 +17,13 @@ key_select_down = keyboard_check(ord(vk_down)) || gamepad_button_check(0, gp_pad
 //Buttons
 // keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_button1 = keyboard_check_pressed(ord("I"));
-key_use = keyboard_check_pressed(ord("E"))  // >>> place gamepad button here <<<
-key_button2 = keyboard_check_pressed(ord("R"))
-key_button3 = keyboard_check_pressed(ord("T"))
-key_button4 = keyboard_check_pressed(ord("F"))
-
+key_button2 = keyboard_check_pressed(ord("E")); // >>> place gamepad button here <<<
+key_button3 = keyboard_check_pressed(ord("R"));
+key_button4 = keyboard_check_pressed(ord("T"));
+key_button5 = keyboard_check_pressed(ord("F"));
+key_button6 = false;
+key_button7 = false;
+key_button8 = false;
 
 if keyboard_check_pressed(vk_escape) {
 	game_end()
@@ -41,14 +43,9 @@ if key_button1 = true
 	}
 }
 
-if key_button4
-{
-	global.inventory[2] = 2;
-}
-
 
 //Restart position
-if key_button2
+if key_button3
 {
 	x = positionsavex;
 	y = positionsavey;

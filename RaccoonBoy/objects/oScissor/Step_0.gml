@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if collision_circle(x, y, 75, oPlayer, false, true) && oPlayer.key_use = true
+if collision_circle(x, y, 75, oPlayer, false, true) && oPlayer.key_button2 = true
 {
 	//Room for use-script determining use order
 

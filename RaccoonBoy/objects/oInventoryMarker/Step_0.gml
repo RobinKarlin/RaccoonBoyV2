@@ -12,7 +12,7 @@ if oPlayer.key_select_right
 
 
 //flash
-if oPlayer.key_use
+if oPlayer.key_button2
 {
 	flash = 9;	//Flash timer
 }

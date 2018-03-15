@@ -19,7 +19,7 @@ if collision_circle(x, y, 75, oPlayer, false, true) {
 
 
 if WithinReach = true {	
-	if oPlayer.key_use {	
+	if oPlayer.key_button2 {	
 		if myTextBox == noone {
 			myTextBox = instance_create_layer(x,y,"Text",oTextBox)
 				myTextBox.Creator = self
@@ -36,7 +36,7 @@ if WithinReach = true {
 
 /*
 //Destroy textbox and return the text to its first reply if getting to the end of the replies or if player walks off
-if WithinReach = true && oPlayer.key_use = true && PartOfText == 3 {
+if WithinReach = true && oPlayer.key_button2 = true && PartOfText == 3 {
 	StateText = 0
 } else if !WithinReach = true{
 	StateText = 0
@@ -80,7 +80,7 @@ break
 			PartOfText = 1
 		}
 		
-		if WithinReach = true && oPlayer.key_use = true && PartOfText == 1 && WrittenText = false {
+		if WithinReach = true && oPlayer.key_button2 = true && PartOfText == 1 && WrittenText = false {
 			TextNextReply(2,2)
 			WrittenText = true
 		} 
@@ -94,7 +94,7 @@ break
 			PartOfText = 2
 		}
 		
-		if WithinReach = true && oPlayer.key_use = true && PartOfText == 2 && WrittenText = false {
+		if WithinReach = true && oPlayer.key_button2 = true && PartOfText == 2 && WrittenText = false {
 			TextNextReply(3,3)
 			WrittenText = true
 		} 
@@ -108,7 +108,7 @@ break
 			PartOfText = 3
 		}
 		
-		if WithinReach = true && oPlayer.key_use = true && PartOfText == 3 && WrittenText = false {
+		if WithinReach = true && oPlayer.key_button2 = true && PartOfText == 3 && WrittenText = false {
 			TextNextReply(0,0)
 		} 
 	} 
