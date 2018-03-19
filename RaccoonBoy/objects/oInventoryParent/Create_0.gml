@@ -30,7 +30,7 @@ if !layer_exists("inventorylayer2")
 }
 
 //Creating inventoryinstances
-if layer_exists(global.inventorylayerID)
+if layer_exists(global.inventorylayerID) && layer_exists(global.inventorylayerID2)
 {
 	instance_create_layer(0, 0, global.inventorylayerID, oInventoryBase);
 	instance_create_layer(0, 0, global.inventorylayerID2, oInventoryMarker);

@@ -5,7 +5,6 @@
 
 
 //Finding lowest oInventoryItems.inventoryid
-/*
 if oPlayer.key_button3
 {
 	with (oInventoryItems) 

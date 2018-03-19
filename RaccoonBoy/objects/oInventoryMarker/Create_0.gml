@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 flash = 0;
+runonceflag = false;
 
-posx = 0;
-posy = 0;
+xoffset = oInventorySetup.inventoryxpadding + (oInventorySetup.inventoryxpadding + sprite_width);
+yoffset = oInventorySetup.inventoryypadding + (oInventorySetup.inventoryypadding + sprite_height);
