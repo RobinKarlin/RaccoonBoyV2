@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 var runonce = false
 {
 	adaptivex = oInventorySetup.inventoryxpadding + oInventoryParent.inventorycolumn * (oInventorySetup.inventoryypadding + oInventoryItems.sprite_width);

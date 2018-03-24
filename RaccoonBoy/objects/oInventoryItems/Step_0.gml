@@ -15,3 +15,4 @@ if runonceflag = false
 itemid = global.inventory[inventoryid];
 
 image_index = itemid;
+

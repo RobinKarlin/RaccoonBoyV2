@@ -41,3 +41,7 @@ for (i = 0; i < totalinventoryspace; i ++)
 val = noone;
 instanceid = noone;
 lowest_val = -1;
+
+//Variables for oInventorymarker position
+global.posx = 0;
+global.posy = 0;

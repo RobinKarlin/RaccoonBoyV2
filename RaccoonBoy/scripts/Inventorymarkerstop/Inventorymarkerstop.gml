@@ -1,20 +1,24 @@
-//Du simmar ur  bild InvMarker
-if (global.invx > 5)
+//You are swimming out of picture InventoryMarker //makes sure inventorymarker doesn't move out of the inventory
+if (global.posx > oInventorySetup.inventorycolumn - 1)
 {
-	global.invx = 5;
+	global.posx = oInventorySetup.inventorycolumn - 1;
 }
 
-if (global.invx < 1)
+if (global.posx < 0)
 {
-	global.invx = 1;
+	global.posx = 0;
 }
 
-if (global.invy > 4)
+if (global.posy > oInventorySetup.inventoryrow - 1)
 {
-	global.invy = 4;
+	global.posy = oInventorySetup.inventoryrow - 1;
 }
 
-if (global.invy < 1)
+if (global.posy < 0)
 {
-	global.invy = 1;
+	global.posy = 0;
 }
+
+
+
+
