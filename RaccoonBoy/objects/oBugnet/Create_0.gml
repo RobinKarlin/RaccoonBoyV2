@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.debug = true;
+
+angling = 90;
+image_angle = angling;
+

@@ -30,6 +30,10 @@ if keyboard_check_pressed(vk_escape) {
 	game_end()
 }
 
+if key_button4 && !instance_exists(oBugnet)
+{
+	instance_create_layer(x, y, playerlayerID, oBugnet)
+}
 
 //Inventory
 if key_button1 = true
