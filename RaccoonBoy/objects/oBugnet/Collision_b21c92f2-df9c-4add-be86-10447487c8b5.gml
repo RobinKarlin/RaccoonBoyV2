@@ -1,3 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.debug = true;
+
+with other
+{
+	script_execute(Pickupscript);
+	instance_destroy();
+}
+

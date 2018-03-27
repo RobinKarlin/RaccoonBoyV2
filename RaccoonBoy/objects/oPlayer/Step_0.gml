@@ -17,10 +17,10 @@ key_select_down = keyboard_check_pressed(vk_down) || gamepad_button_check(0, gp_
 
 //Buttons
 // keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
-key_button1 = keyboard_check_pressed(ord("I"));
+key_button1 = keyboard_check_pressed(ord("I")) || gamepad_button_check_pressed(0, gp_face4);
 key_button2 = keyboard_check_pressed(ord("E")); // >>> place gamepad button here <<<
 key_button3 = keyboard_check_pressed(ord("R"));
-key_button4 = keyboard_check_pressed(ord("T"));
+key_button4 = keyboard_check_pressed(ord("T")) || gamepad_button_check_pressed(0, gp_face1);
 key_button5 = keyboard_check_pressed(ord("F"));
 key_button6 = false;
 key_button7 = false;
@@ -30,6 +30,10 @@ if keyboard_check_pressed(vk_escape) {
 	game_end()
 }
 
+if key_button4 && !instance_exists(oBugnet)
+{
+	instance_create_layer(x, y, playerlayerID, oBugnet)
+}
 
 //Inventory
 if key_button1 = true
