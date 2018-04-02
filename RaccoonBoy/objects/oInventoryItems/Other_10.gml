@@ -1,4 +1,4 @@
-/// @description Use event
+/// @description On use event
 // You can write your code in this editor
 
 
@@ -10,10 +10,39 @@ if global.inventory[inventoryid] = 1 && layer_exists(oPlayer.playerlayerID)
 
 if global.inventory[inventoryid] = 2
 {
-	//Insert use function
+	if itemactivated = false
+	{
+		with oInventoryItems
+		{
+			itemactivated = false;
+		}
+		itemactivated = true;
+	}
+	else
+	{
+		itemactivated = false;
+	}
 }
 
 if global.inventory[inventoryid] = 3
 {
-	//insert use function
+	if itemactivated = false
+	{
+		with oInventoryItems
+		{
+			itemactivated = false;
+		}
+		itemactivated = true;
+	}
+	else
+	{
+		itemactivated = false;
+	}
+}
+
+
+//If this item is activated, send itemid to oActiveItemGui to show in the GUI
+if itemactivated = true
+{
+	oActiveItemGUI.ActiveItem = itemid;
 }

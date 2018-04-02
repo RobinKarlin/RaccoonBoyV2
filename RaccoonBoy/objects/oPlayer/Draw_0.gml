@@ -4,35 +4,24 @@
 //Utan denna linen ritas ej spriten! rör endast i nödfall
 draw_self()
 
-
-if hsp == 0 && vsp == 0 {
-	image_speed = 0
-	image_index = 0
-}
-
-if key_down = true
+/*if acceltimer < maxacceltime
 {
-	image_speed = 1
-	sprite_index = sPlayerFront;
+	sprite_index = sPlayerAcc;
 }
-
-if key_up = true
+*/
+if hsp = 0 && vsp = 0
 {
-	image_speed = 1
-	sprite_index = sPlayerBack;
+	image_index = 0;
+}
+else
+{
+	image_speed = 1;
 }
 
-if key_left = true
-{	
-	image_xscale = 1
-	image_speed = 1
-	sprite_index = sPlayerSide;
-}
-
-if key_right = true {
-	image_speed = 1
-	image_xscale = -1	
-	sprite_index = sPlayerSide
+//Modellvändare
+if (hsp != 0)
+{
+	image_xscale = sign(hsp);
 }
 
 

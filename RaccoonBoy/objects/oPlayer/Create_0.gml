@@ -67,3 +67,5 @@ instance_create_layer(x + 200, y + 200, layer, oInventorySetup);
 //Create object odebug
 instance_create_layer(x, y, layer, oDebug);
 
+//Create object oActiveItemGUI
+instance_create_layer(0, 0, layer, oActiveItemGUI);
