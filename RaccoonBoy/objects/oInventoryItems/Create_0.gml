@@ -20,4 +20,6 @@ yoffset = 0;
 runonceflag = false;
 countdown = 20;
 
+itemactivated = false;
+
 
