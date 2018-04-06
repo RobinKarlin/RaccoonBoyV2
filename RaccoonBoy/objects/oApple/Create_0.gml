@@ -3,3 +3,8 @@
 
 
 itemid = 1;
+itemfallspeed = 1;
+alarm_set(0,25)
+
+
+

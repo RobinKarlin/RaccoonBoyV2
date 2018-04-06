@@ -40,6 +40,38 @@ if global.inventory[inventoryid] = 3
 	}
 }
 
+if global.inventory[inventoryid] = 4
+{
+	if itemactivated = false
+	{
+		with oInventoryItems
+		{
+			itemactivated = false;
+		}
+		itemactivated = true;
+	}
+	else
+	{
+		itemactivated = false;
+	}
+}
+
+if global.inventory[inventoryid] = 5
+{
+	if itemactivated = false
+	{
+		with oInventoryItems
+		{
+			itemactivated = false;
+		}
+		itemactivated = true;
+	}
+	else
+	{
+		itemactivated = false;
+	}
+}
+
 
 //If this item is activated, send itemid to oActiveItemGui to show in the GUI
 if itemactivated = true

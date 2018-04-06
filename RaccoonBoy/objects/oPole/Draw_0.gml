@@ -1,0 +1,5 @@
+
+////DEBUG/////
+
+draw_self()
+
