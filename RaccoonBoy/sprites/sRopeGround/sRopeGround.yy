@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 27,
-    "bbox_left": 8,
-    "bbox_right": 24,
-    "bbox_top": 15,
+    "bbox_bottom": 24,
+    "bbox_left": 1,
+    "bbox_right": 29,
+    "bbox_top": 4,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -34,28 +34,13 @@
                     "mvc": "1.0",
                     "FrameId": "9e5d178d-d8c6-4196-841e-9e61a8c6f919",
                     "LayerId": "dbd8dfe9-9409-456b-af7d-f90f19109a19"
-                }
-            ]
-        },
-        {
-            "id": "b419c2a6-7dd1-494a-b5fc-3e449f70f9c1",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "a60ea738-a89f-4a24-8a71-a0777b62f108",
-            "compositeImage": {
-                "id": "cb575057-c38f-4d31-975e-74117667d4b6",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "b419c2a6-7dd1-494a-b5fc-3e449f70f9c1",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
+                },
                 {
-                    "id": "c0e279f1-fd74-427a-a876-f3c3f15742e2",
+                    "id": "d5663d79-2deb-43b9-b67f-ad19bd094703",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "b419c2a6-7dd1-494a-b5fc-3e449f70f9c1",
-                    "LayerId": "dbd8dfe9-9409-456b-af7d-f90f19109a19"
+                    "FrameId": "9e5d178d-d8c6-4196-841e-9e61a8c6f919",
+                    "LayerId": "8704a1a8-8a17-420d-ad26-7e71466700ec"
                 }
             ]
         }
@@ -73,6 +58,17 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "8704a1a8-8a17-420d-ad26-7e71466700ec",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "a60ea738-a89f-4a24-8a71-a0777b62f108",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
+            "opacity": 35,
             "visible": true
         }
     ],

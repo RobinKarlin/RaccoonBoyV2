@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "4858f501-ba11-4b19-9b73-fd3ef00b7039",
+            "Value": {
+                "id": "a10ca199-679c-4e9e-a9a1-04ceb18fc107",
+                "resourcePath": "objects\\oPergamentGround\\oPergamentGround.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "49923a72-bae4-43bc-8ae6-b04494d2d529",
             "Value": {
                 "id": "5c1a5cc0-8731-4ef8-bfae-7b5bdcad2c97",
@@ -935,6 +943,14 @@
             }
         },
         {
+            "Key": "ce462a0d-363d-4558-8e6f-d65787fd1989",
+            "Value": {
+                "id": "bd857e7e-057d-4cb5-ae11-9f23352dbc4b",
+                "resourcePath": "objects\\oPergament\\oPergament.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cec89a42-03ad-4acc-96e4-2b464f8e6733",
             "Value": {
                 "id": "f64ca14b-a844-4035-b2a5-88c0667b72d9",
@@ -1015,6 +1031,14 @@
             }
         },
         {
+            "Key": "e0198faa-fecc-4f3f-b7ec-8b28b9fff5b5",
+            "Value": {
+                "id": "bf6f8da7-f204-4747-a03c-f2716579a715",
+                "resourcePath": "sprites\\sPergamentGround\\sPergamentGround.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e088d43d-dacf-4c63-88b1-1fe78ae8ab91",
             "Value": {
                 "id": "8117d6ac-0b6c-46a2-9aa7-09ae662176c4",
@@ -1044,14 +1068,6 @@
                 "id": "01b73c81-fde2-488a-bb84-45f305bdea11",
                 "resourcePath": "scripts\\PlayerCollision\\PlayerCollision.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e748f070-f862-48b1-aec5-bc64f92e9250",
-            "Value": {
-                "id": "6de677f5-f47d-4b54-ae7e-3eec65a915f7",
-                "resourcePath": "sprites\\sRope1\\sRope1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1172,6 +1188,14 @@
                 "id": "2dbdae2a-630c-4794-b803-7e42eae2d4e0",
                 "resourcePath": "views\\fb249565-9585-4910-ae7e-23d1e284c63b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb6d0984-8a38-41e9-92bf-336c183ca1e9",
+            "Value": {
+                "id": "815f6771-4c7c-442e-9b0a-765e8ec62835",
+                "resourcePath": "sprites\\sPergament\\sPergament.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
