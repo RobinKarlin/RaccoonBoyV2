@@ -4,4 +4,4 @@
 
 
 x = oPlayer.x;
-y= oPlayer.y;
+y = oPlayer.y;

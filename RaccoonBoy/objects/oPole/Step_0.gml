@@ -18,33 +18,68 @@ if oActiveItemGUI.ActiveItem == 5
 	image_index = 1;
 	if myTextBox = noone
 	{
-		myText[0] = "You tied a rope to the pole."
+		if runonce = false
+		{
+			myText[0] = "You tied a rope to the pole."
+		}
+		else
+		{
+			myText[0] = "The rope is already tied to this pole."
+		}
 	}
 }
 
-if collision_circle(x, y, 16, oPlayer, false, true) {
+if collision_circle(x, y, 25, oPlayer, false, true) 
+{
 	WithinReach = true
-} else {
+} 
+else 
+{
 	WithinReach = false
 }
 
 
-if WithinReach = true {	
+if WithinReach = true 
+{	
 
-	if oPlayer.key_button2 {
-		if runonce = false && oActiveItemGUI.ActiveItem == 5 {
-			instance_create_layer(x, y, oPlayer.playerlayerID, oRope)
-			runonce = true;
+	if oPlayer.key_button2
+	{
+		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope)
+		{
+			with instance_create_layer(x, y, oPlayer.playerlayerID, oRope)
+			{
+				if pole1 == noone && runonce = false
+				{
+					pole1 = other.id;
+					runonce = true
+				}				
+			}
 		}
-		if myTextBox == noone {
+		if instance_exists(oRope)
+		{
+			with oRope
+			{
+				if pole1 != noone
+				{
+					pole2 = other.id;					
+				}
+			}
+		}
+
+			
+			
+		if myTextBox == noone 
+		{
 			myTextBox = instance_create_layer(x,y,"Text",oTextBox)
 				myTextBox.Creator = self
 				myTextBox.Text = myText
 				myTextBox.Name = myName
 				picked = true;
-			}
-		}	
-} else {
+		}
+	}	
+} 
+else 
+{
 	if myTextBox != noone {
 		instance_destroy(myTextBox)
 		myTextBox = noone
@@ -52,6 +87,16 @@ if WithinReach = true {
 }
 
 
+
+
+with oRope
+{
+	if pole2 != noone && pole2 != pole1
+	{
+	global.pentapoints += other.poleid;
+	instance_destroy()
+	}
+}
 
 
 

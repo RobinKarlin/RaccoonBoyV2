@@ -2,7 +2,7 @@
     "id": "97b42a88-cc8c-400e-8f8a-28eaac5a44e4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oRopeExtend",
+    "name": "oRopeTied",
     "eventList": [
         {
             "id": "16e6d8cf-98a3-455c-8af4-3b8a0a6e4df8",

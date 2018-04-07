@@ -3,6 +3,9 @@
 
 //Get playerinput
 //Directions
+//OBS Ändra kontroller i oTextbox också!!!!!!
+if !instance_exists(oTextBox)
+{
 key_left =  keyboard_check(ord("A")) || gamepad_axis_value(0,gp_axislh) < 0;
 key_right = keyboard_check(ord("D")) || gamepad_axis_value(0,gp_axislh) > 0;
 key_up = keyboard_check(ord("W")) || gamepad_axis_value(0,gp_axislv) < 0;
@@ -18,13 +21,36 @@ key_select_down = keyboard_check_pressed(vk_down) || gamepad_button_check(0, gp_
 //Buttons
 // keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_button1 = keyboard_check_pressed(ord("I")) || gamepad_button_check_pressed(0, gp_face4);
+
+if inputdelay = 0 && !instance_exists(oTextBox)
+{
 key_button2 = keyboard_check_pressed(ord("E")); // >>> place gamepad button here <<<
+}
+else
+{
+	key_button2 = noone;
+}
+
+if key_button2 
+{
+	inputdelay = 8;
+}
+
+if inputdelay != 0
+{
+	inputdelay --;
+}
+
+
 key_button3 = keyboard_check_pressed(ord("R"));
 key_button4 = keyboard_check_pressed(ord("T")) || gamepad_button_check_pressed(0, gp_face1);
 key_button5 = keyboard_check_pressed(ord("F"));
 key_button6 = false;
 key_button7 = false;
 key_button8 = false;
+}
+
+
 
 if keyboard_check_pressed(vk_escape) {
 	game_end()

@@ -11,6 +11,14 @@ if Delay <= 0 {
 	WrittenText = false
 }
 */
+
+if global.pentapoints = 15
+{
+	myText[0] = "You have completed our task. Thank you!";
+//	myText[1] = noone;
+//	myText[2] = noone;
+}
+
 if collision_circle(x, y, 75, oPlayer, false, true) {
 	WithinReach = true
 } else {

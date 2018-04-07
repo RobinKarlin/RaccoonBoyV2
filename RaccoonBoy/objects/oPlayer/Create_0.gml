@@ -69,3 +69,7 @@ instance_create_layer(x, y, layer, oDebug);
 
 //Create object oActiveItemGUI
 instance_create_layer(0, 0, layer, oActiveItemGUI);
+
+inputdelay = 0;
+
+global.pentapoints = 0;

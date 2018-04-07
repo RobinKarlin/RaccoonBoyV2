@@ -35,4 +35,7 @@ if key_right = true {
 	sprite_index = sPlayerSide
 }
 
-
+if global.debug = true
+{
+draw_text(x+20,y+20, string(inputdelay))
+}
