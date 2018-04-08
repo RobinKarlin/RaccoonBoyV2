@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "26fee7cb-e6f1-4e2a-976b-587a40b546ac",
-            "Value": {
-                "id": "7a88cf35-a887-4b39-9a2f-2fa31cf6f175",
-                "resourcePath": "sprites\\sRope\\sRope.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "270b6bf7-6395-41c5-b066-a046e76ffb71",
             "Value": {
                 "id": "a64838a2-0bff-4f13-a0de-2c2104e818c7",
@@ -375,6 +367,14 @@
             }
         },
         {
+            "Key": "554e91fd-b8d2-48e3-83fe-01434ad8405e",
+            "Value": {
+                "id": "ef2415ec-9845-423a-9287-63dc810fe0e3",
+                "resourcePath": "sprites\\sRopeGround\\sRopeGround.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55baade3-230b-4945-98e8-ae10c620e9e5",
             "Value": {
                 "id": "4d9555f6-c6cf-4982-a80e-cadd791885f1",
@@ -388,6 +388,14 @@
                 "id": "e9d5d5a0-32fb-464e-84ff-4a5a9909a09f",
                 "resourcePath": "sprites\\sInventoryMarker\\sInventoryMarker.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55ea066e-c0d4-46a5-9be0-46e00ec635a6",
+            "Value": {
+                "id": "02589ff2-8d7a-4913-9199-d505438fea9a",
+                "resourcePath": "objects\\oPergament\\oPergament.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -599,6 +607,14 @@
             }
         },
         {
+            "Key": "884a5492-c815-45c2-a9db-660d6bfd7495",
+            "Value": {
+                "id": "6ccfb7f6-ea08-4f67-a0ea-bf72a5547d81",
+                "resourcePath": "objects\\oCultist\\oCultist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8981f42f-c30b-422f-a639-dc90d606563a",
             "Value": {
                 "id": "da64c454-9036-447a-8edc-1a8145c94b73",
@@ -687,6 +703,14 @@
             }
         },
         {
+            "Key": "96649af2-ac9f-4373-b5f8-41404ef2c3c8",
+            "Value": {
+                "id": "8cdd0ea2-e96c-4182-bfe4-c4476926da72",
+                "resourcePath": "sprites\\sRope\\sRope.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97b42a88-cc8c-400e-8f8a-28eaac5a44e4",
             "Value": {
                 "id": "b800e6e9-6d1e-4489-bac3-54ccb60e328e",
@@ -751,14 +775,6 @@
             }
         },
         {
-            "Key": "a60ea738-a89f-4a24-8a71-a0777b62f108",
-            "Value": {
-                "id": "e2622335-689a-4a00-b98e-a231bd7de8d8",
-                "resourcePath": "sprites\\sRopeGround\\sRopeGround.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a7b4de32-50bf-43f4-b9fa-c1a9f1d9c785",
             "Value": {
                 "id": "70a08bd3-175e-43fb-ac69-636b40c60e1d",
@@ -791,11 +807,27 @@
             }
         },
         {
+            "Key": "b235b239-46f9-42ea-90f1-e9a5fb88e844",
+            "Value": {
+                "id": "83de0992-e5c9-4c18-84eb-c3f11e9f87c2",
+                "resourcePath": "objects\\oPergamentGround\\oPergamentGround.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b4b81d28-fca0-4b1d-b773-2589f8df0475",
             "Value": {
                 "id": "12a40899-81bd-4099-8be8-e6fa9a39fedd",
                 "resourcePath": "objects\\oInventoryItems\\oInventoryItems.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b4e76a60-f254-4eda-8bc3-f68e85652cb9",
+            "Value": {
+                "id": "d8995dc6-59e5-448f-9e32-6c90dd900fb2",
+                "resourcePath": "sprites\\sCultist\\sCultist.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1015,6 +1047,14 @@
             }
         },
         {
+            "Key": "e0198faa-fecc-4f3f-b7ec-8b28b9fff5b5",
+            "Value": {
+                "id": "6a861031-48b7-4952-8d9a-7ebfa76b2abf",
+                "resourcePath": "sprites\\sPergamentGround\\sPergamentGround.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e088d43d-dacf-4c63-88b1-1fe78ae8ab91",
             "Value": {
                 "id": "8117d6ac-0b6c-46a2-9aa7-09ae662176c4",
@@ -1044,14 +1084,6 @@
                 "id": "01b73c81-fde2-488a-bb84-45f305bdea11",
                 "resourcePath": "scripts\\PlayerCollision\\PlayerCollision.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e748f070-f862-48b1-aec5-bc64f92e9250",
-            "Value": {
-                "id": "6de677f5-f47d-4b54-ae7e-3eec65a915f7",
-                "resourcePath": "sprites\\sRope1\\sRope1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1172,6 +1204,14 @@
                 "id": "2dbdae2a-630c-4794-b803-7e42eae2d4e0",
                 "resourcePath": "views\\fb249565-9585-4910-ae7e-23d1e284c63b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb6d0984-8a38-41e9-92bf-336c183ca1e9",
+            "Value": {
+                "id": "65ee087f-bbf0-4abb-a4c5-3296078a042f",
+                "resourcePath": "sprites\\sPergament\\sPergament.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

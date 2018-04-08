@@ -11,5 +11,5 @@ if global.debug = true
 //draw_self()
 
 
-draw_sprite_ext(sprite_index, 0, x, y, distans/256, 1, (point_direction(x, y, tiedpole2.x, tiedpole2.y)), -1, 1);
+draw_sprite_ext(sprite_index, 0, x, y, distans/32, 1, (point_direction(x, y, tiedpole2.x, tiedpole2.y)), -1, 1);
 
