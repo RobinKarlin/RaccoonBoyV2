@@ -610,7 +610,7 @@
             "Key": "884a5492-c815-45c2-a9db-660d6bfd7495",
             "Value": {
                 "id": "6ccfb7f6-ea08-4f67-a0ea-bf72a5547d81",
-                "resourcePath": "objects\\oCultist\\oCultist.yy",
+                "resourcePath": "objects\\oFriend2\\oFriend2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -834,7 +834,7 @@
             "Key": "b8fe5386-5de9-4c92-bc95-64d87b09e2a5",
             "Value": {
                 "id": "4452a638-af79-4def-af0b-ff1a76048e88",
-                "resourcePath": "objects\\oFriend2\\oFriend2.yy",
+                "resourcePath": "objects\\oCultist\\oCultist.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -51,7 +51,7 @@ if WithinReach = true
 				if pole1 == noone && runonce = false
 				{
 					pole1 = other.id;
-					runonce = true
+					runonce = true;
 				}				
 			}
 		}
