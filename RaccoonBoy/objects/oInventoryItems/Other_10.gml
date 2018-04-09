@@ -74,17 +74,16 @@ if global.inventory[inventoryid] = 5
 
 if global.inventory[inventoryid] = 6
 {
-	if itemactivated = false
+	if instance_exists(oPergament)
 	{
-		with oInventoryItems
+		with oPergament
 		{
-			itemactivated = false;
+			instance_destroy()
 		}
-		itemactivated = true;
 	}
 	else
 	{
-		itemactivated = false;
+	instance_create_layer(1, 1, oPlayer.playerlayerID, oPergament)
 	}
 }
 
