@@ -16,8 +16,10 @@ Speed = 3
 Font = fInGame
 FontSize = font_get_size(Font)
 
-key_progress = noone;
+key_saved = oPlayer.key_button2;
+key_progress = noone; 
 
+/*
 oPlayer.key_left =  false;
 oPlayer.key_right = false;
 oPlayer.key_up = false;

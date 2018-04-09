@@ -85,7 +85,7 @@ if global.inventory[inventoryid] = 6
 	else
 	{
 		itemactivated = false;
-	}
+	}		
 }
 
 

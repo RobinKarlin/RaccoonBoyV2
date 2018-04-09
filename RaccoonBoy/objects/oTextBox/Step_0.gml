@@ -1,4 +1,4 @@
-key_progress = keyboard_check_pressed(ord("E")); // || >>> place gamepad button here <<<
+key_progress = keyboard_check_pressed(ord("E")) || gamepad_button_check_pressed(0, gp_face1);
 
 
 

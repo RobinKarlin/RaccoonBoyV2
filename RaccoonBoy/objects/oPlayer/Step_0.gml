@@ -12,19 +12,18 @@ key_up = keyboard_check(ord("W")) || gamepad_axis_value(0,gp_axislv) < 0;
 key_down = keyboard_check(ord("S")) || gamepad_axis_value(0,gp_axislv) > 0;
 
 //Selections
-key_select_left = keyboard_check_pressed(vk_left) || gamepad_button_check(0, gp_padl);
-key_select_right = keyboard_check_pressed(vk_right) || gamepad_button_check(0, gp_padr);
-key_select_up = keyboard_check_pressed(vk_up) || gamepad_button_check(0, gp_padu);
-key_select_down = keyboard_check_pressed(vk_down) || gamepad_button_check(0, gp_padd);
+key_select_left = keyboard_check_pressed(vk_left) || gamepad_button_check_pressed(0, gp_padl);
+key_select_right = keyboard_check_pressed(vk_right) || gamepad_button_check_pressed(0, gp_padr);
+key_select_up = keyboard_check_pressed(vk_up) || gamepad_button_check_pressed(0, gp_padu);
+key_select_down = keyboard_check_pressed(vk_down) || gamepad_button_check_pressed(0, gp_padd);
 
 
 //Buttons
-// keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_button1 = keyboard_check_pressed(ord("I")) || gamepad_button_check_pressed(0, gp_face4);
 
 if inputdelay = 0 && !instance_exists(oTextBox)
 {
-key_button2 = keyboard_check_pressed(ord("E")); // >>> place gamepad button here <<<
+key_button2 = keyboard_check_pressed(ord("E")) || gamepad_button_check_pressed(0, gp_face1);
 }
 else
 {
@@ -43,13 +42,12 @@ if inputdelay != 0
 
 
 key_button3 = keyboard_check_pressed(ord("R"));
-key_button4 = keyboard_check_pressed(ord("T")) || gamepad_button_check_pressed(0, gp_face1);
+key_button4 = keyboard_check_pressed(ord("T")) || gamepad_button_check_pressed(0, gp_face3);
 key_button5 = keyboard_check_pressed(ord("F"));
 key_button6 = false;
 key_button7 = false;
 key_button8 = false;
 }
-
 
 
 if keyboard_check_pressed(vk_escape) {
