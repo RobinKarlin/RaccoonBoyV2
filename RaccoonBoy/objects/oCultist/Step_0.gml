@@ -19,6 +19,11 @@ if global.pentapoints = 15
 //	myText[2] = noone;
 }
 
+if global.pentapoints != 0 && global.pentapoints != 15
+{
+	myText[0] = "The task is not yet completed."
+}
+
 if collision_circle(x, y, 75, oPlayer, false, true) {
 	WithinReach = true
 } else {
@@ -41,6 +46,8 @@ if WithinReach = true {
 		myTextBox = noone
 	}
 }
+
+
 
 /*
 //Destroy textbox and return the text to its first reply if getting to the end of the replies or if player walks off
