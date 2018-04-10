@@ -15,19 +15,35 @@ if Delay <= 0 {
 
 if oActiveItemGUI.ActiveItem == 5
 {
-	image_index = 1;
 	if myTextBox = noone
 	{
 		if runonce = false
 		{
-			myText[0] = "You tied a rope to the pole."
+			myText[0] = "You tied a rope to the pole.";
 		}
 		else
 		{
-			myText[0] = "The rope is already tied to this pole."
+			myText[0] = "A rope is already tied to this pole.";
 		}
 	}
 }
+
+if oActiveItemGUI.ActiveItem != 5
+{
+	myText[0] = "A sturdy pole.";
+}
+
+if instance_exists(oRope) && oRope.pole1 != id
+{
+	myText[0] = "You tied the other end of the rope to the pole.";
+}
+
+if instance_exists(oRopeTied) && oRopeTied.tiedpole2 = id && instance_exists(oRope) && oRope.pole1 != id
+{
+	myText[0] = "You have already tied a rope to this pole.";
+}
+
+
 
 if collision_circle(x, y, 25, oPlayer, false, true) 
 {
@@ -44,14 +60,14 @@ if WithinReach = true
 
 	if oPlayer.key_button2
 	{
-		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope)
+		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope) && runonce = false
 		{
 			with instance_create_layer(x, y, oPlayer.playerlayerID, oRope)
 			{
-				if pole1 == noone && runonce = false
+				if pole1 == noone
 				{
 					pole1 = other.id;
-					runonce = true;
+					other.runonce = true;
 				}				
 			}
 		}
@@ -61,7 +77,17 @@ if WithinReach = true
 			{
 				if pole1 != noone
 				{
-					pole2 = other.id;					
+					if instance_exists(oRopeTied)
+					{
+						if other.id != oRopeTied.tiedpole2
+						{
+						pole2 = other.id;
+						}
+					}
+					else
+					{
+					pole2 = other.id;
+					}
 				}
 			}
 		}
