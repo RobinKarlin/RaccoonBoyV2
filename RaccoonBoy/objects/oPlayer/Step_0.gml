@@ -3,7 +3,7 @@
 
 //Get playerinput
 //Directions
-//OBS Ändra kontroller i oTextbox också!!!!!!
+//OBS Ändra kontroller i oTextbox, oPause också!!!!!!
 if !instance_exists(oTextBox)
 {
 key_left =  keyboard_check(ord("A")) || gamepad_axis_value(0,gp_axislh) < 0;
