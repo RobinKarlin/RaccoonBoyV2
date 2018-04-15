@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1)
+switch (pausestate)
 {
-	script_execute(Pause,0);
+	case pausestate.firstmenu:	scr_firstpausemenu(); break;
+	case pausestate.gameplay:	scr_gameplay(); break;
+	case pausestate.normalpause:	scr_normalpause(); break;
 }
+

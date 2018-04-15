@@ -2,13 +2,13 @@
 // You can write your code in this editor
 
 
-if global.inventory[inventoryid] = 1 && layer_exists(oPlayer.playerlayerID)
+if oInventorySetup.inventory[inventoryid] = 1 && layer_exists(oPlayer.playerlayerID)
 {
 	instance_create_layer(oPlayer.x,oPlayer.y, oPlayer.playerlayerID, oApple)
-	global.inventory[inventoryid] = 0;
+	oInventorySetup.inventory[inventoryid] = 0;
 }
 
-if global.inventory[inventoryid] = 2
+if oInventorySetup.inventory[inventoryid] = 2
 {
 	if itemactivated = false
 	{
@@ -24,7 +24,7 @@ if global.inventory[inventoryid] = 2
 	}
 }
 
-if global.inventory[inventoryid] = 3
+if oInventorySetup.inventory[inventoryid] = 3
 {
 	if itemactivated = false
 	{
@@ -40,7 +40,7 @@ if global.inventory[inventoryid] = 3
 	}
 }
 
-if global.inventory[inventoryid] = 4
+if oInventorySetup.inventory[inventoryid] = 4
 {
 	if itemactivated = false
 	{
@@ -56,7 +56,7 @@ if global.inventory[inventoryid] = 4
 	}
 }
 
-if global.inventory[inventoryid] = 5
+if oInventorySetup.inventory[inventoryid] = 5
 {
 	if itemactivated = false
 	{
@@ -72,7 +72,7 @@ if global.inventory[inventoryid] = 5
 	}
 }
 
-if global.inventory[inventoryid] = 6
+if oInventorySetup.inventory[inventoryid] = 6
 {
 	if instance_exists(oPergament)
 	{

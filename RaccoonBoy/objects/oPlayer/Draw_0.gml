@@ -4,6 +4,14 @@
 //Utan denna linen ritas ej spriten! rör endast i nödfall
 draw_self()
 
+if oPause.pausestate != 1
+{
+	image_speed = 0;
+}
+
+//om pausestate.gameplay i oPause är true kör detta
+if oPause.pausestate = 1
+{
 
 if hsp == 0 && vsp == 0 {
 	image_speed = 0
@@ -38,4 +46,6 @@ if key_right = true {
 if global.debug = true
 {
 draw_text(x+20,y+20, string(inputdelay))
+}
+
 }
