@@ -7,7 +7,7 @@
         "bf2084b5-aac7-4365-8a21-7e34846257e7"
     ],
     "filterType": "GMScript",
-    "folderName": "Tools",
+    "folderName": "Borrowed Tools",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

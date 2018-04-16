@@ -33,7 +33,7 @@ if WithinReach = true {
 
 	if oPlayer.key_button2 {
 		if runonce = false {
-			script_execute(ThrowingApples)
+			script_execute(ThrowingItems, oApple, 35, 0.8)
 			runonce = true;
 		}
 		if myTextBox == noone {
