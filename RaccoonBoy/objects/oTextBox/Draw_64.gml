@@ -11,11 +11,10 @@ draw_sprite_ext(sTextBox,-1,x,y,1,1,0,c_white,1)
 draw_sprite_ext(sTextBoxName,-1,x+(sprite_get_width(sTextBox) / 2),y-10,1,1,0,c_white,1)
 
 //Draw name
-draw_set_font(fInGame)
+draw_set_font(fInGameName)
 draw_set_halign(fa_center)
-draw_set_color(c_green)
+draw_set_color(c_black)
 draw_text_ext(x+NamePlacement/2,y-20,Name,25,30)
-draw_text_ext(x+NamePlacement/2+40,y-20,Page,25,30)
 
 charCount += 3
 //TextLength = string_length(Text[Page])
@@ -31,12 +30,13 @@ if Time < TextLength {
 draw_set_font(Font)
 draw_set_halign(fa_left)
 draw_set_color(c_black)
-draw_text_ext(x+Padding,y+TopPadding,Print,25,MaxLength)
+draw_text_ext(x+Padding,y+TopPadding,Print,50,MaxLength)
 
-draw_text(x,y,charCount)
+//draw_text(x,y,charCount)
 
 /*
 draw_text_ext(x,y,Text[Page],25,50)	
+
 
 
 

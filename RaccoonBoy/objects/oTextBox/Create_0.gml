@@ -6,15 +6,17 @@ BoxPlacementPadding = 30
 Creator = noone
 charCount = 0
 
-Padding = 15
-TopPadding = 50
+Padding = 70
+TopPadding = 100
 NamePlacement = sprite_get_width(sTextBox)
-MaxLength = sprite_get_width(sTextBox) - 25
+MaxLength = sprite_get_width(sTextBox) - 150
 MaxTextHeight = sprite_get_height(sTextBox) - 50
 MinTextHeight = sprite_get_height(sTextBox) - 50
 Speed = 3
 Font = fInGame
 FontSize = font_get_size(Font)
+
+ColorBrown = make_color_rgb(61,30,13)
 
 key_progress = noone;
 
