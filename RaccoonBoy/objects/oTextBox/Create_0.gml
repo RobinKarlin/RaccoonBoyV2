@@ -40,12 +40,6 @@ oPlayer.key_button6 = false;
 oPlayer.key_button7 = false;
 oPlayer.key_button8 = false;
 
-/*
-TextWidth = string_width_ext(Text,25,MaxLength)
-TextHeight = string_height_ext(Text,25,MaxTextHeight)
-	
-BoxWidth = sprite_get_width(sTextBox)
-BoxHeight = sprite_get_height(sTextBox)
 
 
 
