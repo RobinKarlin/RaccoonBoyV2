@@ -1,4 +1,10 @@
-if pausebutton
+if oPlayer.pausebutton
 {
-	state = state.normalpause;
+	if runoncegame == false
+	{
+		activeroom = room;
+		runoncegame = true;
+	}
+	room_goto(pauseroom);
+	pausestate = pausestate.normalpause;
 }

@@ -4,5 +4,5 @@
 
 if global.debug = true
 {
-	draw_text(oPlayer.x - 20, oPlayer.y - 20, string(state))
+	draw_text(oPlayer.x - 20, oPlayer.y - 20, string(pausestate))
 }

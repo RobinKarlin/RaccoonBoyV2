@@ -10,9 +10,9 @@ if runonceflag = false
 }
 
 
-//Refers to the item stored in the oinventorySetup array global.inventory
+//Refers to the item stored in the oinventorySetup array oInventorySetup.inventory
 
-itemid = global.inventory[inventoryid];
+itemid = oInventorySetup.inventory[inventoryid];
 
 image_index = itemid;
 

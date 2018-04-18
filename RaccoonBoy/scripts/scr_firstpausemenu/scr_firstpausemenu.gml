@@ -1,11 +1,13 @@
-if runonce = false
+if runonce == false
 {
 	pauseroom = room;
 	runonce = true;
 }
 
-if pausebutton
+
+/*
+if oPlayer.pausebutton
 {
-	state = state.gameplay;
+	pausestate = pausestate.gameplay;
 }
 

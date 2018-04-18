@@ -24,7 +24,7 @@ key_button1 = keyboard_check_pressed(ord("I")) || gamepad_button_check_pressed(0
 
 if inputdelay = 0 && !instance_exists(oTextBox)
 {
-key_button2 = keyboard_check_pressed(ord("E")) || gamepad_button_check_pressed(0, gp_face1);
+key_button2 = keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face1);
 }
 else
 {
@@ -48,13 +48,22 @@ key_button5 = keyboard_check_pressed(ord("F"));
 key_button6 = false;
 key_button7 = false;
 key_button8 = false;
+pausebutton = keyboard_check_pressed(ord("P")) || gamepad_button_check_pressed(0, gp_start);
 }
+
 
 
 
 if keyboard_check_pressed(vk_escape) {
 	game_end()
 }
+
+
+//om pausestate.gameplay i oPause är true kör detta
+
+if oPause.pausestate = 1
+{
+
 
 if key_button4 && !instance_exists(oBugnet)
 {
@@ -114,3 +123,4 @@ x = x + hsp;
 y = y + vsp;
 
 
+}

@@ -8,3 +8,4 @@ myName = "Fred"
 Delay = 2
 ResetDelay = 2
 WithinReach = false
+otherobjectwithinreach = false;

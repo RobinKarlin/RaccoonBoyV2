@@ -32,7 +32,7 @@ totalinventoryspace = inventorycolumn * inventoryrow; //If you had to ask you ar
 var i = 0;
 for (i = 0; i < totalinventoryspace; i ++)
 {
-	global.inventory[i] = 0;
+	inventory[i] = 0;
 }
 
 

@@ -1,6 +1,6 @@
 
 
-if pausebutton
+if oPlayer.pausebutton
 {
-	state = state.gameplay;
+	pausestate = pausestate.gameplay;
 }
