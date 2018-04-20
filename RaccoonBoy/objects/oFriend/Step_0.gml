@@ -1,6 +1,6 @@
 /// @description OriginalNPC dont touch
 
-if collision_circle(x, y, 75, oPlayer, false, true) {
+if collision_circle(x, y, collisionradius, oPlayer, false, true) {
 	WithinReach = true
 } else {
 	WithinReach = false

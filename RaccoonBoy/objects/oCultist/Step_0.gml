@@ -1,17 +1,4 @@
-/////////CONVERSATION CODE STARTS///////////
-
-//Delay
-/*
-if WrittenText = true {
-	Delay--
-}
-
-if Delay <= 0 {
-	Delay = ResetDelay
-	WrittenText = false
-}
-*/
-
+//Pentagramquest complete
 if global.pentapoints = 15
 {
 	myText[0] = "You have completed our task. Thank you!";
@@ -20,7 +7,7 @@ if global.pentapoints = 15
 }
 
 
-if collision_circle(x, y, 75, oPlayer, false, true) {
+if collision_circle(x, y, collisionradius, oPlayer, false, true) {
 	WithinReach = true
 } else {
 	WithinReach = false

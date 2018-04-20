@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//global.debug = false;
-
-global.debug = true;
+x = oAnswerBox.x;
+y = oAnswerBox.y + sprite_height * answerid;
