@@ -8,6 +8,7 @@ myName = "Bush"
 Delay = 2
 ResetDelay = 2
 WithinReach = false
+otherobjectwithinreach = false;
 
 picked = false;
 image_speed = 0;

@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "380b0577-2ae0-49ea-ad2e-d203855cda67",
+            "Value": {
+                "id": "57ad1cac-badb-4120-8f49-2ae5d3cc5dc3",
+                "resourcePath": "objects\\oInteractableParent\\oInteractableParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b752577-6fd0-43d6-8297-98be685f999f",
             "Value": {
                 "id": "002f15e3-6c3d-4c5d-823d-c861a4722c54",
@@ -775,6 +783,14 @@
             }
         },
         {
+            "Key": "8e9d142b-53ce-417c-8846-64e13a6c6a15",
+            "Value": {
+                "id": "02e8428c-7911-4ca0-8f65-18c92cf5f86c",
+                "resourcePath": "objects\\oPickupableItemParent\\oPickupableItemParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f948a9d-0e8f-4a45-a26f-b5c4b6b0ce23",
             "Value": {
                 "id": "79271b78-b183-42ee-a6fc-1a92520ecd17",
@@ -979,6 +995,14 @@
             "Value": {
                 "id": "4452a638-af79-4def-af0b-ff1a76048e88",
                 "resourcePath": "objects\\oCultist\\oCultist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b9bab8d7-57f3-4265-abd0-7f8780b918ea",
+            "Value": {
+                "id": "2f109835-2937-4d7d-a2ee-2c358850469d",
+                "resourcePath": "objects\\oNpcTemplate\\oNpcTemplate.yy",
                 "resourceType": "GMObject"
             }
         },

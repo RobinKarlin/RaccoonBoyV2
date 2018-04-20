@@ -9,7 +9,8 @@ myName = "Pole " + string(poleid);
 Delay = 2
 ResetDelay = 2
 WithinReach = false
-//id = mypoleid;
+otherobjectwithinreach = false;
+
 
 picked = false;
 image_speed = 0;

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//global.debug = false;
-
-global.debug = true;
+if variable_instance_exists(Creator, "textshown")
+{
+	Creator.textshown = true;
+}

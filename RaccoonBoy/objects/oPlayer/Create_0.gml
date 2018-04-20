@@ -39,7 +39,7 @@ decely = 1;
 decelmax = 1;
 
 initiatedecel = 0.1; //Default value: 0.1. Starting deceleration valuechange. Changing this does not change much in the actual decel.
-decelvalue = 0.1; //Default value: 0.1. Changing this changes the amount of pixels in deceleration according to walksp * xdir * (decelx - decelvalue) for every step when decelx less than decelmax.
+decelvalue = 0.15; //Default value: 0.1. Changing this changes the amount of pixels in deceleration according to walksp * xdir * (decelx - decelvalue) for every step when decelx less than decelmax.
 
 maxacceltime = 26; // The time in frames (minus 1) it takes for object to reach full speed.
 acceltimer = maxacceltime; //Change maxacceltime to change this value.

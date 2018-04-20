@@ -4,8 +4,8 @@
 //Get playerinput
 //Directions
 //OBS Ändra kontroller i oTextbox, oPause också!!!!!!
-if !instance_exists(oTextBox)
-{
+//if !instance_exists(oTextBox)
+
 key_left =  keyboard_check(ord("A")) || gamepad_axis_value(0,gp_axislh) < 0;
 key_right = keyboard_check(ord("D")) || gamepad_axis_value(0,gp_axislh) > 0;
 key_up = keyboard_check(ord("W")) || gamepad_axis_value(0,gp_axislv) < 0;
@@ -22,7 +22,7 @@ key_select_down = keyboard_check_pressed(vk_down) || gamepad_button_check_presse
 // keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_button1 = keyboard_check_pressed(ord("I")) || gamepad_button_check_pressed(0, gp_face4);
 
-if inputdelay = 0 && !instance_exists(oTextBox)
+if inputdelay = 0
 {
 key_button2 = keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face1);
 }
@@ -49,7 +49,7 @@ key_button6 = false;
 key_button7 = false;
 key_button8 = false;
 pausebutton = keyboard_check_pressed(ord("P")) || gamepad_button_check_pressed(0, gp_start);
-}
+
 
 
 

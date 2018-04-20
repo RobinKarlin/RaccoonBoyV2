@@ -8,6 +8,7 @@ myName = "Plantie"
 Delay = 2
 ResetDelay = 2
 WithinReach = false
+otherobjectwithinreach = false;
 
 image_speed = 0;
 grownplant = false;
