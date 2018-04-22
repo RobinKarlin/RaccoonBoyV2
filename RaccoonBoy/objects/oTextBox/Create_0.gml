@@ -18,25 +18,6 @@ FontSize = font_get_size(Font)
 
 key_progress = noone;
 
-oPlayer.key_left =  false;
-oPlayer.key_right = false;
-oPlayer.key_up = false;
-oPlayer.key_down = false;
-
-//Selections
-oPlayer.key_select_left = false;
-oPlayer.key_select_right = false;
-oPlayer.key_select_up = false;
-oPlayer.key_select_down = false;
-
-oPlayer.key_button1 = false;
-oPlayer.key_button2 = false;
-oPlayer.key_button3 = false;
-oPlayer.key_button4 = false;
-oPlayer.key_button5 = false;
-oPlayer.key_button6 = false;
-oPlayer.key_button7 = false;
-oPlayer.key_button8 = false;
 
 /*
 TextWidth = string_width_ext(Text,25,MaxLength)

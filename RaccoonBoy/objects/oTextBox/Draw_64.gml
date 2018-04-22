@@ -35,8 +35,14 @@ draw_text_ext(x+Padding,y+TopPadding,Print,25,MaxLength)
 
 draw_text(x,y,charCount)
 
+
+//fontsaver/reseter
+draw_set_font(-1);
+
 /*
 draw_text_ext(x,y,Text[Page],25,50)	
+
+
 
 
 

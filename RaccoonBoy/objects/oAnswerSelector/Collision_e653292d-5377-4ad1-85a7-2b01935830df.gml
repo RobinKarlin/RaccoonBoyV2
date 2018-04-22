@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//global.debug = false;
-
-global.debug = false;
+if oPlayer.key_button2
+{
+	with other
+	{
+		event_user(0)
+	}
+}
