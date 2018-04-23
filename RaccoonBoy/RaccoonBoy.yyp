@@ -983,14 +983,6 @@
             }
         },
         {
-            "Key": "a7b4de32-50bf-43f4-b9fa-c1a9f1d9c785",
-            "Value": {
-                "id": "70a08bd3-175e-43fb-ac69-636b40c60e1d",
-                "resourcePath": "sprites\\sTextBoxName\\sTextBoxName.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a87ba6c0-afad-4587-b208-03c29be54045",
             "Value": {
                 "id": "8f5cb2c1-7018-4b25-8b1b-4d38018b3d31",

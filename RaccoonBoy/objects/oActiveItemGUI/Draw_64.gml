@@ -5,10 +5,11 @@
 
 image_index = ActiveItem;
 
-x = camera_get_view_width(0) / 2 - sprite_width;
-y = sprite_height * 3;
+x = global.PortWidth / 2 - sprite_width;
+y = sprite_height * 3
 
-draw_sprite_stretched(sprite_index, ActiveItem, x, y - 64, 128, 128);
+
+draw_sprite_stretched(sprite_index, ActiveItem, x, y - 64, 64, 64);
 
 if global.debug = true
 {
