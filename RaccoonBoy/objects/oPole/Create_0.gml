@@ -15,3 +15,4 @@ otherobjectwithinreach = false;
 picked = false;
 image_speed = 0;
 runonce = false;
+enablerope = true;

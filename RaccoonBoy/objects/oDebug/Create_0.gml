@@ -3,4 +3,4 @@
 
 //global.debug = false;
 
-global.debug = true;
+global.debug = false;

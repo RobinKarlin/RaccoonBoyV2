@@ -24,12 +24,16 @@ eventtext1[1] = "questtext2"
 eventtext2[0] = "questtext1"
 eventtext2[1] = "questtext2"
 
+//Latest answer from oAnswerChoice
+lastanswer = noone;
+
+//NPC variables
 myName = "NpcTemplate"
 Delay = 2
 ResetDelay = 2
 WithinReach = false
 otherobjectwithinreach = false;
-collisionradius = 45;
+collisionradius = 45; //Change this to adjust the interactionradius
 
 textstate = 0; //Use for quests & events
 textprogress = 2; //Check progress of text. Defaultvalue = 2

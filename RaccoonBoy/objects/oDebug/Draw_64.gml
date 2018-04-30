@@ -20,3 +20,4 @@ draw_text(32, 132, string(global.pentapoints));
 
 
 }
+

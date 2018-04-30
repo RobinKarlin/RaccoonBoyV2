@@ -5,11 +5,10 @@ var runonce = false
 {
 	adaptivex = oInventorySetup.inventoryxpadding + oInventoryParent.inventorycolumn * (oInventorySetup.inventoryypadding + oInventoryItems.sprite_width);
 	adaptivey = oInventorySetup.inventoryypadding + oInventoryParent.inventoryrow * (oInventorySetup.inventoryypadding + oInventoryItems.sprite_height);
-	posx = (camera_get_view_width(0) / 2) - (sprite_width / 2);
-	posy = camera_get_view_height(0) - adaptivey - middleoffset;
+	posx = (global.PortWidth / 2) - (sprite_width / 2);
+	posy = global.PortHeight - adaptivey - middleoffset;
 	runonce = true;
 }
-
 
 
 draw_sprite_stretched(sprite_index, -1, posx , posy, adaptivex, adaptivey);

@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "7231f40d-58e8-4d6a-b325-1534d858af98",
+            "Value": {
+                "id": "cb34ab32-3a92-43ce-bd6c-cc4c68217c80",
+                "resourcePath": "objects\\oAnswerParent\\oAnswerParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "74d2cd26-fe85-451e-98e2-d0bdd6779be2",
             "Value": {
                 "id": "47623cc2-3c40-4649-a4d2-51695a05e843",
@@ -975,14 +983,6 @@
             }
         },
         {
-            "Key": "a7b4de32-50bf-43f4-b9fa-c1a9f1d9c785",
-            "Value": {
-                "id": "70a08bd3-175e-43fb-ac69-636b40c60e1d",
-                "resourcePath": "sprites\\sTextBoxName\\sTextBoxName.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a87ba6c0-afad-4587-b208-03c29be54045",
             "Value": {
                 "id": "8f5cb2c1-7018-4b25-8b1b-4d38018b3d31",
@@ -1028,6 +1028,14 @@
                 "id": "83de0992-e5c9-4c18-84eb-c3f11e9f87c2",
                 "resourcePath": "objects\\oPergamentGround\\oPergamentGround.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b30c784a-1d35-4379-983a-64c7f664a5b7",
+            "Value": {
+                "id": "b40cd9de-989a-4690-a4d2-01b9a155e587",
+                "resourcePath": "scripts\\script13\\script13.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1524,7 +1532,8 @@
         "5c79a14c-2425-4c97-b551-f69b96da1eb5",
         "956c2379-274f-4bb7-ab13-85f2fa9e4e81",
         "bf2084b5-aac7-4365-8a21-7e34846257e7",
-        "e96c54bf-e4e0-4148-8aa6-98bc29cca12e"
+        "e96c54bf-e4e0-4148-8aa6-98bc29cca12e",
+        "b30c784a-1d35-4379-983a-64c7f664a5b7"
     ],
     "tutorial": ""
 }

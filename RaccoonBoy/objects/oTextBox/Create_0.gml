@@ -2,41 +2,28 @@ Alpha = 0
 Page = 0
 Print = ""
 Time = 0
-BoxPlacementPadding = 30
+BoxPlacementPaddingBottom = 10
 Creator = noone
 charCount = 0
 
-Padding = 15
-TopPadding = 50
+Padding = 30
+TopPadding = 55
 NamePlacement = sprite_get_width(sTextBox)
-MaxLength = sprite_get_width(sTextBox) - 25
+MaxLength = sprite_get_width(sTextBox) - 75
 MaxTextHeight = sprite_get_height(sTextBox) - 50
 MinTextHeight = sprite_get_height(sTextBox) - 50
 Speed = 3
 Font = fInGame
 FontSize = font_get_size(Font)
+FontColor = make_color_rgb(47,35,20)
 
 key_progress = noone;
 
-oPlayer.key_left =  false;
-oPlayer.key_right = false;
-oPlayer.key_up = false;
-oPlayer.key_down = false;
+//setting the pausestate to stopmovement
+oPause.pausestate = 3;
 
-//Selections
-oPlayer.key_select_left = false;
-oPlayer.key_select_right = false;
-oPlayer.key_select_up = false;
-oPlayer.key_select_down = false;
 
-oPlayer.key_button1 = false;
-oPlayer.key_button2 = false;
-oPlayer.key_button3 = false;
-oPlayer.key_button4 = false;
-oPlayer.key_button5 = false;
-oPlayer.key_button6 = false;
-oPlayer.key_button7 = false;
-oPlayer.key_button8 = false;
+
 
 /*
 TextWidth = string_width_ext(Text,25,MaxLength)

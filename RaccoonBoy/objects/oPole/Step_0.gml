@@ -29,6 +29,7 @@ if instance_exists(oRopeTied) && oRopeTied.tiedpole2 = id && instance_exists(oRo
 	myText[0] = "You have already tied a rope to this pole.";
 }
 
+
 //Stops functionality if there is a pickupable item in the vicinity or inventory is open to avoid conflict. otherobjectwithinreach is declared in begin_step
 if otherobjectwithinreach == false && !instance_exists(oInventoryBase)
 {
@@ -49,7 +50,7 @@ if WithinReach = true
 
 	if oPlayer.key_button2
 	{
-		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope) && runonce = false
+		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope) && runonce = false && !instance_exists(oTextBox) && enablerope = true
 		{
 			with instance_create_layer(x, y, oPlayer.playerlayerID, oRope)
 			{

@@ -1,7 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
+x = oPlayer.x +32;
+y = oPlayer.y;
+
 creator = noone;
+
+startingpointx = noone;
+startingpointy = noone;
 
 //How many answers are available?
 answeramount = 4;
@@ -25,9 +33,16 @@ for (i = 0; i < answeramount; i++)
 	{
 		sprite_index = other.answer[i];
 		answerid = i;
+		creator = other.creator;
 		other.ypixels += sprite_height;
 	}
 }
 
 //Creating oAnswerselector
 instance_create_depth(x, y, depth -2, oAnswerSelector);
+
+//Close inventory if open
+if instance_exists(oInventoryBase)
+{
+	instance_destroy(oInventoryBase);
+}

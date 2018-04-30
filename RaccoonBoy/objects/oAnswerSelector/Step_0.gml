@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-nearest_down = Finding_near_instances(x, y+10, oAnswerChoice, 2);
-nearest_up = Finding_near_instances(x, y-10, oAnswerChoice, 2);
+nearest_down = Finding_near_instances(x, y+20, oAnswerChoice, 2);
+nearest_up = Finding_near_instances(x, y-20, oAnswerChoice, 1);
 
 
 //Moving the selector and making sure it does not continue up or down without viable buttons to move to.
