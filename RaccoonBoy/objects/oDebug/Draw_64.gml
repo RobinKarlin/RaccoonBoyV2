@@ -17,7 +17,7 @@ draw_text(32, 132, string(global.pentapoints));
 //draw_text(32,296, instance_number(oInventoryItems));
 //draw_text(32,328, string(camera_get_active()));
 //draw_text(32,360, string(instance_id_get(oInventoryMarker)));
-
-
 }
+
+
 

@@ -12,7 +12,14 @@ WithinReach = false
 otherobjectwithinreach = false;
 
 
-picked = false;
+
 image_speed = 0;
+//checks if there already is a rope tied to this pole.
+tiedrope = false;
+//Runonce for the first ropetying
 runonce = false;
+//Textbox uses this to delay usage while in textmode
 enablerope = true;
+//The pentagram mates for this pole.
+polemate1 = noone;
+polemate2 = noone;

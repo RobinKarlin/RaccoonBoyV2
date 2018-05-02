@@ -4,7 +4,7 @@ distans = distance_to_object(pole1);
 if distans > 300
 {
 	pole1.runonce = false;
-	instance_destroy();
+	instance_destroy(id, false);
 }
 
 

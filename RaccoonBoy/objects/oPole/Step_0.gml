@@ -24,7 +24,7 @@ if instance_exists(oRope) && oRope.pole1 != id
 	myText[0] = "You tied the other end of the rope to the pole.";
 }
 
-if instance_exists(oRopeTied) && oRopeTied.tiedpole2 = id && instance_exists(oRope) && oRope.pole1 != id
+if instance_exists(oRopeTied) && tiedrope = true && instance_exists(oRope) && oRope.pole1 != id
 {
 	myText[0] = "You have already tied a rope to this pole.";
 }
@@ -69,7 +69,7 @@ if WithinReach = true
 				{
 					if instance_exists(oRopeTied)
 					{
-						if other.id != oRopeTied.tiedpole2
+						if other.tiedrope = false
 						{
 						pole2 = other.id;
 						}
@@ -108,8 +108,7 @@ else
 with oRope
 {
 	if pole2 != noone && pole2 != pole1
-	{
-	global.pentapoints += other.poleid;
+	{	
 	instance_destroy()
 	}
 }
