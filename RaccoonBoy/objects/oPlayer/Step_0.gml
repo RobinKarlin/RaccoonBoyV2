@@ -59,9 +59,12 @@ if keyboard_check_pressed(vk_escape) {
 }
 
 
-//om pausestate.gameplay i oPause är true kör detta
-
-if oPause.pausestate = 1
+//Detta hindrar kod från att köras och stoppar spelarmodellen om pausestate inte är 1
+if oPause.pausestate != 1
+{
+	image_index = 0;
+}
+else
 {
 
 

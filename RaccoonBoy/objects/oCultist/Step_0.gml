@@ -1,5 +1,5 @@
 //Pentagramquest complete
-if global.pentapoints = 15
+if global.pentapoints = 5
 {
 	myText[0] = "You have completed our task. Thank you!";
 //	myText[1] = noone;
@@ -21,11 +21,14 @@ if WithinReach = true {
 	if oPlayer.key_button2 {
 		
 		//if you fail with the minigame, talking to the cultist resets it.
-		if global.pentapoints != 15 && global.pentapoints != 0
+		if global.pentapoints != 5 && global.pentapoints != 0
 		{
 			myText[0] = "No no no. That is not the sign of our cult \nThe shape escapes my mind, but the schematic should bring light to this issue"	;
 			global.pentapoints = 0;
 			oPole.runonce = false;
+			oPole.tiedrope = false;
+			oPole.pole2 = noone;
+			oPole.pole1 = noone;
 			instance_destroy(oRopeTied);
 		}
 		if myTextBox == noone {

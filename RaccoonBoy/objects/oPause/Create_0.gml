@@ -13,7 +13,7 @@ enum pausestate
 	firstmenu = 0,
 	gameplay = 1 ,
 	normalpause = 2,
-	cutscene
+	stopmovement = 3
 	
 }
 

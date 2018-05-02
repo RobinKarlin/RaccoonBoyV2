@@ -19,6 +19,9 @@ FontColor = make_color_rgb(47,35,20)
 
 key_progress = noone;
 
+//setting the pausestate to stopmovement
+oPause.pausestate = 3;
+
 
 
 

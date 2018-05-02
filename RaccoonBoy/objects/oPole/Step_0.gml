@@ -24,10 +24,11 @@ if instance_exists(oRope) && oRope.pole1 != id
 	myText[0] = "You tied the other end of the rope to the pole.";
 }
 
-if instance_exists(oRopeTied) && oRopeTied.tiedpole2 = id && instance_exists(oRope) && oRope.pole1 != id
+if instance_exists(oRopeTied) && tiedrope = true && instance_exists(oRope) && oRope.pole1 != id
 {
 	myText[0] = "You have already tied a rope to this pole.";
 }
+
 
 //Stops functionality if there is a pickupable item in the vicinity or inventory is open to avoid conflict. otherobjectwithinreach is declared in begin_step
 if otherobjectwithinreach == false && !instance_exists(oInventoryBase)
@@ -49,7 +50,7 @@ if WithinReach = true
 
 	if oPlayer.key_button2
 	{
-		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope) && runonce = false
+		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope) && runonce = false && !instance_exists(oTextBox) && enablerope = true
 		{
 			with instance_create_layer(x, y, oPlayer.playerlayerID, oRope)
 			{
@@ -68,7 +69,7 @@ if WithinReach = true
 				{
 					if instance_exists(oRopeTied)
 					{
-						if other.id != oRopeTied.tiedpole2
+						if other.tiedrope = false
 						{
 						pole2 = other.id;
 						}
@@ -107,8 +108,7 @@ else
 with oRope
 {
 	if pole2 != noone && pole2 != pole1
-	{
-	global.pentapoints += other.poleid;
+	{	
 	instance_destroy()
 	}
 }
