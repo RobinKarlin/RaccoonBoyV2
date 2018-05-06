@@ -127,6 +127,22 @@
             }
         },
         {
+            "Key": "11216b09-927c-4895-924a-cc7236532a4a",
+            "Value": {
+                "id": "20953c22-6809-4edc-9972-3ef7ed5daf3b",
+                "resourcePath": "sprites\\sBranch\\sBranch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "13a56d8d-677b-463d-8f22-cf4375380a02",
+            "Value": {
+                "id": "39ed3119-ceb9-421c-a01d-c19234b50c67",
+                "resourcePath": "sprites\\sXbox_X\\sXbox_X.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14118796-654e-4cb8-aa0e-0683ddbd4fe3",
             "Value": {
                 "id": "afdae643-bb6a-42f5-aac6-c6f9a5d26f8f",
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "2515e9fe-58d0-480a-90bd-adc893b6be1d",
+            "Value": {
+                "id": "57879654-57df-4b70-be09-9a230cd9eb56",
+                "resourcePath": "sprites\\sPlaystation_X\\sPlaystation_X.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "261e4b20-b030-4984-af62-411442b7a16f",
             "Value": {
                 "id": "1b4db53d-ac38-40bd-83ed-e6f1ceddffc3",
@@ -247,6 +271,14 @@
             }
         },
         {
+            "Key": "29578dbc-cc89-4e95-9b8f-9162a8c7087a",
+            "Value": {
+                "id": "78ba8c44-711f-47eb-af2c-cf12afd4c31a",
+                "resourcePath": "views\\29578dbc-cc89-4e95-9b8f-9162a8c7087a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2abe02fb-8edb-42b0-9892-4a7d35b6866e",
             "Value": {
                 "id": "4451b113-9f0a-495c-a3fd-9baf7618542a",
@@ -263,11 +295,27 @@
             }
         },
         {
+            "Key": "2ba8e5a4-5248-4d7a-bdc6-528650ba0025",
+            "Value": {
+                "id": "426755d6-0603-4ff9-91e1-2119623f51b3",
+                "resourcePath": "views\\2ba8e5a4-5248-4d7a-bdc6-528650ba0025.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2f152c8a-db1b-4528-89d1-8ed32562b3dc",
             "Value": {
                 "id": "685f567c-e8b2-44db-8fd4-36811b2b5741",
                 "resourcePath": "objects\\oBugnet\\oBugnet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2ffddc8c-3727-463a-832b-a10ae2610e04",
+            "Value": {
+                "id": "be26bbc8-25eb-4be7-8ab4-98f0fc463c3a",
+                "resourcePath": "sprites\\sPC_T\\sPC_T.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -343,10 +391,10 @@
             }
         },
         {
-            "Key": "3c6af7ee-601e-4eb5-94ce-498d8783a30b",
+            "Key": "3cd4bcc5-4409-4da4-824e-a11a12d318c1",
             "Value": {
-                "id": "21dc45f1-339f-4884-9a63-7658bd3e479d",
-                "resourcePath": "sprites\\sInventoryItems\\sInventoryItems.yy",
+                "id": "bba2642a-6453-4801-b2c8-6fe3c2dd3cf6",
+                "resourcePath": "sprites\\sPC_P\\sPC_P.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -404,6 +452,14 @@
                 "id": "f0585e2c-de42-4bec-b4fb-27400a01a298",
                 "resourcePath": "views\\43fa9873-3756-47ab-be7d-7138cb3bfb32.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "496e1418-9b28-44fe-b9d7-2d4b7f82c8ec",
+            "Value": {
+                "id": "7b7ed0f2-ccb2-4f15-a84a-b5f018eb936e",
+                "resourcePath": "sprites\\sPlaystation_Square\\sPlaystation_Square.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -535,14 +591,6 @@
             }
         },
         {
-            "Key": "5d08c4a4-fe81-413f-86a5-c12f5d49d36d",
-            "Value": {
-                "id": "334ab1d4-dfea-43b7-b440-948e97696495",
-                "resourcePath": "sprites\\sBush\\sBush.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5d13a777-94c3-4992-97d3-e897a1758aef",
             "Value": {
                 "id": "045c8ba7-0425-4735-90d5-613b37772ed5",
@@ -572,6 +620,30 @@
                 "id": "160f16cf-82cb-4265-aca5-c53e90b4b326",
                 "resourcePath": "sprites\\sMenuSelector\\sMenuSelector.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6148fa2b-6261-462d-8407-d9c778f6fd42",
+            "Value": {
+                "id": "1e7785c8-2b47-4f44-b7f8-430fc448cdc0",
+                "resourcePath": "sprites\\sPlaystation_Triangle\\sPlaystation_Triangle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6350f50c-ac89-4c7e-8285-b965415b1224",
+            "Value": {
+                "id": "82dbc1de-0521-4ea4-9cbd-622164744419",
+                "resourcePath": "sprites\\sPC_E\\sPC_E.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "639d2a40-2c43-4d78-befc-78f412000a17",
+            "Value": {
+                "id": "0f6f37e4-579a-4436-8822-6860666cfbf8",
+                "resourcePath": "objects\\oBerry\\oBerry.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -711,19 +783,19 @@
             }
         },
         {
+            "Key": "78c2c2db-69fb-4b3c-ad2c-f49158a206fd",
+            "Value": {
+                "id": "c091718f-b83b-4b37-99d4-c6730834194b",
+                "resourcePath": "sprites\\sInventoryBG\\sInventoryBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7cb64d09-382d-4e43-9c22-ceefb9fa802d",
             "Value": {
                 "id": "e9317cf6-b9b2-443d-96ac-e937af803d5e",
                 "resourcePath": "objects\\oWall_64x64\\oWall_64x64.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "7e0a9b45-82c1-4045-aa59-5d8caeae4d0b",
-            "Value": {
-                "id": "9fd55082-74ee-482b-bb9e-f07faf3c2230",
-                "resourcePath": "sprites\\sPlant1\\sPlant1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -831,6 +903,14 @@
             }
         },
         {
+            "Key": "8da1cc79-a210-47a7-95bd-6172868bee0e",
+            "Value": {
+                "id": "42c8248a-d60e-4f03-9ebb-609222c9bfca",
+                "resourcePath": "views\\8da1cc79-a210-47a7-95bd-6172868bee0e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e0a3ffd-9333-43b3-989d-4b0cc4a35a92",
             "Value": {
                 "id": "59287703-7194-4e00-95b0-2964e201c62b",
@@ -844,6 +924,14 @@
                 "id": "02e8428c-7911-4ca0-8f65-18c92cf5f86c",
                 "resourcePath": "objects\\oPickupableItemParent\\oPickupableItemParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8f9470a1-39ef-442c-ad29-bb94f186bfbd",
+            "Value": {
+                "id": "6e80afd0-fd94-47ee-a6be-157e0662b8f3",
+                "resourcePath": "sprites\\sPC_R\\sPC_R.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -867,6 +955,14 @@
             "Value": {
                 "id": "fa14a922-561e-4afb-9d30-80f639e0bf73",
                 "resourcePath": "sprites\\sRuin\\sRuin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90d833f5-b0d9-4b07-be6b-cb51c7923980",
+            "Value": {
+                "id": "f18d84fa-a8a4-41e8-82b0-30aae7c639ce",
+                "resourcePath": "sprites\\sScissor\\sScissor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -895,6 +991,14 @@
             }
         },
         {
+            "Key": "9316df41-0687-4bcb-8858-a7527b22b2c1",
+            "Value": {
+                "id": "c2f64b42-1463-49b8-baf2-218f169ddaa1",
+                "resourcePath": "sprites\\sXbox_A\\sXbox_A.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "956c2379-274f-4bb7-ab13-85f2fa9e4e81",
             "Value": {
                 "id": "c25795ae-a8c3-4719-8f93-1f299fe5713c",
@@ -919,14 +1023,6 @@
             }
         },
         {
-            "Key": "98ea49e3-7610-4684-a3a5-38ca5436af19",
-            "Value": {
-                "id": "ecfb672e-0c2d-429d-be30-8623df7827dc",
-                "resourcePath": "sprites\\sBranch\\sBranch.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9af64606-ada0-44c3-960d-dcfdbad9cddd",
             "Value": {
                 "id": "4942f55f-89a7-4025-9546-a9c47aaf890c",
@@ -939,6 +1035,14 @@
             "Value": {
                 "id": "94039e8d-cb11-42e7-831f-7e04a052b662",
                 "resourcePath": "sprites\\sNoAnswer\\sNoAnswer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d4c83f4-e94a-41dd-a7f2-1af977a700fc",
+            "Value": {
+                "id": "9714754c-9437-4ab6-a092-c9da33117c9f",
+                "resourcePath": "sprites\\sBerry\\sBerry.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1007,19 +1111,27 @@
             }
         },
         {
-            "Key": "aaf8438f-5618-4e09-9158-87684b52a6e1",
-            "Value": {
-                "id": "48a2e921-b549-4d68-9da5-a9ad68317ddd",
-                "resourcePath": "sprites\\sScissor\\sScissor.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ab11521a-ae91-41e0-85d6-b6833d27ad03",
             "Value": {
                 "id": "53085a95-522e-472f-aba9-d30c8bb16704",
                 "resourcePath": "sprites\\sExit\\sExit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ac40a5c2-3ab5-45f6-b83d-6b144060d66c",
+            "Value": {
+                "id": "49d58f3c-8f4a-44d1-ad8a-75773f07ade2",
+                "resourcePath": "sprites\\sInventoryItems\\sInventoryItems.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ad5ae64d-8794-439f-b041-97927d1149cd",
+            "Value": {
+                "id": "16d2a406-b7c6-4f9a-b5c5-82c92b02da51",
+                "resourcePath": "views\\ad5ae64d-8794-439f-b041-97927d1149cd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1103,14 +1215,6 @@
             }
         },
         {
-            "Key": "bd2c511e-980d-43af-90b6-cc8e713e05c0",
-            "Value": {
-                "id": "8350184c-2f89-466b-a152-89a47abd3209",
-                "resourcePath": "sprites\\sApple\\sApple.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "be84b3c8-edd4-43e8-b7dd-04bf422da02a",
             "Value": {
                 "id": "03bfd056-af93-4734-ac07-e783316c3520",
@@ -1139,6 +1243,14 @@
             "Value": {
                 "id": "3dbe936f-b177-43db-8521-5c6a761050d2",
                 "resourcePath": "sprites\\sRock\\sRock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c2936f64-86ea-4b07-8cf5-67ce5c616ac3",
+            "Value": {
+                "id": "76adff00-0b3c-4786-944e-1a5d28f305cc",
+                "resourcePath": "sprites\\sXbox_Y\\sXbox_Y.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1211,6 +1323,14 @@
             "Value": {
                 "id": "ef3f4023-6160-49ee-973e-a7153c684c89",
                 "resourcePath": "sprites\\sInventoryBase\\sInventoryBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cd04af5f-cb15-40e9-b2e1-4383c9a1569a",
+            "Value": {
+                "id": "986e2392-c566-4048-9368-bcfdc72bdec5",
+                "resourcePath": "sprites\\sPC_F\\sPC_F.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1367,6 +1487,14 @@
             }
         },
         {
+            "Key": "e930d29f-cd20-4a5d-b970-6ce6103d103d",
+            "Value": {
+                "id": "a8c73a0e-df94-4193-9488-985bdd09f4f0",
+                "resourcePath": "sprites\\sBush\\sBush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e96c54bf-e4e0-4148-8aa6-98bc29cca12e",
             "Value": {
                 "id": "18d4fd62-a34f-4753-bcdf-79bc4a2f2cbe",
@@ -1411,6 +1539,14 @@
             "Value": {
                 "id": "ac015305-05b2-400b-b3e1-d1609f25e8f0",
                 "resourcePath": "sprites\\sNewGame\\sNewGame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed2f3271-de36-4e49-a531-c7f5d211f0c2",
+            "Value": {
+                "id": "b35c7440-2fa0-4edd-8f62-4f70d3ce488d",
+                "resourcePath": "sprites\\sPlant1\\sPlant1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1471,6 +1607,14 @@
             }
         },
         {
+            "Key": "f4266881-bfbf-4f86-83f6-ea16825c1f11",
+            "Value": {
+                "id": "591a8317-c87d-4df1-af3e-3cb7b9bf9f14",
+                "resourcePath": "sprites\\sXbox_B\\sXbox_B.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f50fcbde-65a5-4b3c-981d-94a0a4e63b98",
             "Value": {
                 "id": "45ad3efe-0292-41cd-af64-d87b1e0c05e0",
@@ -1516,6 +1660,22 @@
                 "id": "fc51f37a-9553-4ade-ba26-3c3f20c73a06",
                 "resourcePath": "views\\fbeb58b1-7e98-4599-8b99-8a66727eea74.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc03cc09-282a-4d42-a351-b4829cfce842",
+            "Value": {
+                "id": "f5919ed2-d33c-49e6-bb4c-d61f4deff5bc",
+                "resourcePath": "sprites\\sPlaystation_Circle\\sPlaystation_Circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc5b8969-26fd-4954-b8b4-d05f34910417",
+            "Value": {
+                "id": "9cda74ea-5817-4207-ab12-c59558e1278c",
+                "resourcePath": "sprites\\sApple\\sApple.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
