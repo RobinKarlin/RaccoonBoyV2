@@ -1055,6 +1055,14 @@
             }
         },
         {
+            "Key": "9e14168c-d6b7-4e78-944c-ae8ce748bf55",
+            "Value": {
+                "id": "25afcfc3-707e-4466-ada1-0e8244e84bba",
+                "resourcePath": "objects\\oQuestTracker\\oQuestTracker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9e3fbf79-f713-421e-bca4-cfe50c66b7c2",
             "Value": {
                 "id": "0757cc68-cd32-45be-8f70-695b432f7846",
