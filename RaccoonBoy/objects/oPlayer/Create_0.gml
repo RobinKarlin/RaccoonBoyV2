@@ -62,14 +62,27 @@ timer = room_speed / 60;
 movementstart = false;
 
 //Create object oInventorySetup
+if !instance_exists(oInventorySetup)
+{
 instance_create_layer(x + 200, y + 200, layer, oInventorySetup);
+}
 
 //Create object odebug
+if !instance_exists(oDebug)
+{
 instance_create_layer(x, y, layer, oDebug);
+}
 
 //Create object oActiveItemGUI
+if !instance_exists(oActiveItemGUI)
+{
 instance_create_layer(0, 0, layer, oActiveItemGUI);
+}
+
+//Create object oQuestTracker
+if !instance_exists(oQuestTracker)
+{
+instance_create_layer(x + 10, y + 10, layer, oQuestTracker);
+}
 
 inputdelay = 0;
-
-global.pentapoints = 0;

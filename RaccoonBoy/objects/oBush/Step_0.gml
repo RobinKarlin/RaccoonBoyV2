@@ -41,7 +41,7 @@ if WithinReach = true
 		if  runonce = false 
 
 		{
-			script_execute(ThrowingItems, oApple, 35, 0.8);
+			script_execute(ThrowingItems, oBerry, 35, 0.8);
 			runonce = true;
 		}
 	}	

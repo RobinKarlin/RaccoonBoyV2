@@ -2,4 +2,7 @@
 // You can write your code in this editor
 
 creator.lastanswer = answerid;
+creator.askforanswer = false;
 instance_destroy(oAnswerParent);
+instance_destroy(oTextBox);
+creator.alarm[0] = 4;

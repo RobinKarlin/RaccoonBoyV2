@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
 var runonce = false
 {
 	adaptivex = oInventorySetup.inventoryxpadding + oInventoryParent.inventorycolumn * (oInventorySetup.inventoryypadding + oInventoryItems.sprite_width);
@@ -10,7 +12,7 @@ var runonce = false
 	runonce = true;
 }
 
-
+draw_sprite(sInventoryBG,-1,posx,posy)
 draw_sprite_stretched(sprite_index, -1, posx , posy, adaptivex, adaptivey);
 
 /*

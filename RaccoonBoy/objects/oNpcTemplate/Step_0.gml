@@ -1,4 +1,4 @@
-/// @description OriginalNPC dont touch
+/// @description TemplateNPC
 
 if collision_circle(x, y, collisionradius, oPlayer, false, true) {
 	WithinReach = true
@@ -53,7 +53,7 @@ if textprogress = 3 && textshown = true
 }
 
 
-//Event or questspecific text. Note that this overrides
+//Event or questspecific text. Note that this overrides other texts
 if textstate = 1
 {
 	var i;
@@ -81,6 +81,14 @@ if textstate = 2
 //End of vicinity & inventorycheck
 }
 
+//write answerspecific results here
+if lastanswer = 0
+{
+	textstate = 1; 	//change this to a number corresponding to the eventtext number you want to show in the next textbox
+	//Write code here
+}
+
+/* debug
 if keyboard_check_pressed(ord("V"))
 {
 	textstate ++;
