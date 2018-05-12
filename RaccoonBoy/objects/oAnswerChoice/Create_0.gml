@@ -3,4 +3,4 @@
 creator = noone;
 answerid = noone;
 answerchoice = noone;
-textpadding = 1
+textpadding = 15

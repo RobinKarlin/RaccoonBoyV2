@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 x = creator.x +32;
-y = creator.y;
+y = creator.y - 128;
 
 
 if runonce = false

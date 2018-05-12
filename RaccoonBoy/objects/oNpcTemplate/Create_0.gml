@@ -2,7 +2,7 @@ myTextBox = noone
 
 //Answers
 askforanswer = true;
-answeramount = 4;
+answeramount = 2;
 answer[0] = "yes";
 answer[1] = "no";
 answer[2] = "Mebbe";

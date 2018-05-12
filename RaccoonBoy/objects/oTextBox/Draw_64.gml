@@ -6,6 +6,7 @@ x = (global.PortWidth - sprite_get_width(sTextBox)) / 2 +10
 //Sprite that the text is drawn on top of
 draw_sprite(sTextBox,-1,global.PortWidth / 2,global.PortHeight - BoxPlacementPaddingBottom)
 
+
 //Draw name on top of textbox sprite
 draw_set_font(fInGame)
 draw_set_halign(fa_center)

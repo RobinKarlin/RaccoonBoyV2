@@ -16,7 +16,7 @@ answer[3] = "";
 
 
 //Draw stuff
-ypadding = 1; //vertical padding between answerchoice
+ypadding = 10; //vertical padding between answerchoice
 padding = 2;
 yscaling = 1;
 xscaling = 1;
