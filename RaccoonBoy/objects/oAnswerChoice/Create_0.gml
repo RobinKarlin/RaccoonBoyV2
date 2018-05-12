@@ -3,4 +3,10 @@
 creator = noone;
 answerid = noone;
 answerchoice = noone;
-textpadding = 15
+xtextpadding = 15
+ytextpadding = 2
+
+choiceguix = noone;
+choiceguiy = noone;
+
+waittime = 3;

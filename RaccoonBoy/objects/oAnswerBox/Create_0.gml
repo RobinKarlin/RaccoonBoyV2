@@ -17,11 +17,14 @@ answer[3] = "";
 
 //Draw stuff
 ypadding = 10; //vertical padding between answerchoice
-padding = 2;
+padding = 8;
 yscaling = 1;
 xscaling = 1;
 ypixels = 1;
 
+guix = -300;
+guiy =  -300;
+waittime = 3;
 /*
 //Creating oAnswerchoice objects depending on variable "answer"
 var i

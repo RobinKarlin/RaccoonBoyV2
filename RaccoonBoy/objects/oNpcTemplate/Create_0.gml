@@ -2,7 +2,7 @@ myTextBox = noone
 
 //Answers
 askforanswer = true;
-answeramount = 2;
+answeramount = 4;
 answer[0] = "yes";
 answer[1] = "no";
 answer[2] = "Mebbe";
@@ -55,3 +55,4 @@ collisionradius = 45; //Change this to adjust the interactionradius
 textstate = 0; //Use for quests & events
 textprogress = 2; //Check progress of text. Defaultvalue = 2
 textshown = false; //Checks if text has been successfully shown
+
