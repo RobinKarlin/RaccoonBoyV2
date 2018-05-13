@@ -20,7 +20,7 @@ ypadding = 10; //vertical padding between answerchoice
 padding = 8;
 yscaling = 1;
 xscaling = 1;
-ypixels = 1;
+ypixels = 0;
 
 guix = -300;
 guiy =  -300;
