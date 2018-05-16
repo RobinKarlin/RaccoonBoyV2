@@ -13,6 +13,7 @@ draw_text(x-16,y, string(variabletochange[lastanswer]))
 draw_set_halign(fa_left)
 draw_text(x,y-48, string(variablevalue[lastanswer]))
 draw_text(x,y+48, string(textstate))
+draw_text(x,y+64, string(lastanswer))
 }
 draw_self()
 

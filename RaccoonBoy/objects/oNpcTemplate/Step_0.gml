@@ -125,3 +125,7 @@ if !lastanswer > -1 && answernumber == 0
 	//textnumber
 }
 
+if keyboard_check_pressed(ord("B"))
+{
+	VariableChangeScript(variableowner[lastanswer], variabletochange[lastanswer], variablevalue[lastanswer])
+}

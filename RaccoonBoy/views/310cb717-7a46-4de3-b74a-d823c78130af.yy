@@ -6,7 +6,8 @@
     "children": [
         "e96c54bf-e4e0-4148-8aa6-98bc29cca12e",
         "b30c784a-1d35-4379-983a-64c7f664a5b7",
-        "0601a227-8e7a-4ef1-8c49-9142f7826a15"
+        "0601a227-8e7a-4ef1-8c49-9142f7826a15",
+        "058072a7-85a5-4baa-a23c-ef98eb328387"
     ],
     "filterType": "GMScript",
     "folderName": "Made Tools",
