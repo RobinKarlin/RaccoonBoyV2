@@ -9,7 +9,14 @@ if key_progress = true
 	{
 		Page += 1
 		charCount = 0
-	} 
+	}
+	else if variable_instance_exists(Creator, "askforanswer") && Creator.askforanswer = true
+	{
+		with Creator
+		{
+			event_user(0);
+		}
+	}
 	else 
 	{
 		instance_destroy()

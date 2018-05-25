@@ -4,6 +4,6 @@
 if global.debug
 {	
 	draw_text(64, 64, string(instance_number(oRopeTied)));
-	draw_text(32, 32, "pentapoints: " + string(global.pentapoints));
+	draw_text(32, 32, "pentapoints: " + string(oQuestTracker.pentapoints));
 	
 }

@@ -13,6 +13,6 @@ if pole2 != noone
 	}
 	if pole1.polemate1 == pole2.poleid || pole1.polemate2 == pole2.poleid
 	{
-		global.pentapoints ++;
+		oQuestTracker.pentapoints ++;
 	}
 }

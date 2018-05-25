@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-nearest_down = Finding_near_instances(x, y+20, oAnswerChoice, 2);
-nearest_up = Finding_near_instances(x, y-20, oAnswerChoice, 1);
+nearest_down = Finding_near_instances(x, y + oAnswerBox.ypadding, oAnswerChoice, 2);
+nearest_up = Finding_near_instances(x, y - oAnswerBox.ypadding, oAnswerChoice, 1);
 
 
 //Moving the selector and making sure it does not continue up or down without viable buttons to move to.
@@ -20,3 +20,5 @@ if oPlayer.key_select_up && y - nearest_up.y > 0
 	y = nearest_up.y;
 }
 
+//Checking which answerchoice is collided with
+colliding_choice = instance_place(x, y, oAnswerChoice)

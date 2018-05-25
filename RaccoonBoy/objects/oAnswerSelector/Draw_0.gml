@@ -6,12 +6,9 @@ draw_set_color(c_black);
 //draw_rectangle(x, y, (x + oAnswerChoice.sprite_width), (y + oAnswerChoice.sprite_height), true);
 draw_set_color(c_white);
 
-//if global.debug = true
+if global.debug = true
 {
 	draw_text(nearest_down.x + 32, nearest_down.y, string("nearest down"));
 	draw_text(nearest_up.x + 32, nearest_up.y, string("nearest up"));
+	draw_self();
 }
-draw_self();
-
-
-draw_self();

@@ -10,3 +10,6 @@ ResetDelay = 2
 WithinReach = false
 otherobjectwithinreach = false;
 collisionradius = 45;
+
+
+asd = 1;
