@@ -102,18 +102,24 @@ hsp = movex * walksp;
 vsp = movey * walksp;
 
 
-//MovementDeceleration
-script_execute(MovementDecel,0);
 
-//Movementacceleration
-script_execute(MovementAccel,0);
+if allowacceleration = true
+{
+	//MovementDeceleration
+	script_execute(MovementDecel,0);
 
+	//Movementacceleration
+	script_execute(MovementAccel,0);
+}
 
-//Collisions
+//*OLD Collisions
 if (place_meeting(x+hsp,y,oCollisionBlock)) || (place_meeting(x,y+vsp,oCollisionBlock))
 {
 script_execute(PlayerCollision,0);
 }
+
+//New Collision with tiles!
+script_execute(TilePlayerCollision, 0)
 
 //Call Destroy event
 if hp <= 0

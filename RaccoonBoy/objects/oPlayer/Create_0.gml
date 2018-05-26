@@ -9,7 +9,7 @@ gamepad_set_axis_deadzone(0, 0.3);
 
 //layer_id
 playerlayerID = layer_get_id("Player");
-
+tilemap = layer_tilemap_get_id("CollisionTiles")
 //old variables
 old_movex = 0;
 old_movey = 0;
@@ -37,6 +37,8 @@ ydir = 0;
 decelx = 1;
 decely = 1;
 decelmax = 1;
+
+allowacceleration = false;
 
 initiatedecel = 0.1; //Default value: 0.1. Starting deceleration valuechange. Changing this does not change much in the actual decel.
 decelvalue = 0.15; //Default value: 0.1. Changing this changes the amount of pixels in deceleration according to walksp * xdir * (decelx - decelvalue) for every step when decelx less than decelmax.
