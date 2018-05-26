@@ -1087,6 +1087,14 @@
             }
         },
         {
+            "Key": "a2548dd9-3f19-4193-ad35-2ebbbe0945a3",
+            "Value": {
+                "id": "764f2fa6-d72c-4cc1-bf7a-1df91e1ce08d",
+                "resourcePath": "tilesets\\CollisionTiles\\CollisionTiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "a36f7233-53d6-490d-bea0-07a96f46ea4e",
             "Value": {
                 "id": "6dee1240-8fff-48e5-a90d-da845e47a154",
@@ -1124,6 +1132,14 @@
                 "id": "71ab65c2-6da3-42cc-9b4e-1e43367347c2",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9df74d4-9b3b-4ce2-be1f-e46b0117536e",
+            "Value": {
+                "id": "aea946e8-3086-4fa1-8eb6-a9891a51bff8",
+                "resourcePath": "sprites\\sCollisionTile\\sCollisionTile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

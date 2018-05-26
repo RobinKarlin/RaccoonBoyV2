@@ -124,3 +124,10 @@ if !lastanswer > -1 && answernumber == 0
 	variable_instance_set(oQuestTracker.questtrackerid,variabletochange[lastanswer], variablevalue[lastanswer]);
 	//textnumber
 }
+
+if !lastanswer > -1 && answernumber == 1
+{
+	variable_instance_set(oQuestTracker.questtrackerid,secondvariabletochange[lastanswer], secondvariablevalue[lastanswer]);
+	//textnumber
+}
+

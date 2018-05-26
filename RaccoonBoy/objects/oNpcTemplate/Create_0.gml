@@ -55,12 +55,13 @@ answerbox[5] = false;
 //Answerconsequences
 answernumber = -1; //This variable checks how many answers has been given -1, don't touch.
 //First answer consequences
+//Consequence variables are contained only in oQuestTracker, Please make sure to comment all variables therein.
 //If lastanswer is 0
 variabletochange[0] = "testvariable"; //Which variable to change after the answer has been given?
 variablevalue[0] = 1; //Which value should the variable change to after the answer has been given?
 textnumber[0] = noone; //Which textpage should be shown after the answer has been given?
 //If lastanswer is 1
-variabletochange[1] = ""; //Which variable to change after the answer has been given?
+variabletochange[1] = "testvariable"; //Which variable to change after the answer has been given?
 variablevalue[1] = ""; //Which value should the variable change to after the answer has been given?
 textnumber[1] = noone; //Which textpage should be shown after the answer has been given?
 //If lastanswer is 2
