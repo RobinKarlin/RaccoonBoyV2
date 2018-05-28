@@ -177,8 +177,11 @@ if dogfollow = false && collision_circle(x, y, 500, oCarpenter, false, true)
 }
 
 //if dog is outside of view
-if x > (oPlayer.x + 1000) || x < (oPlayer.x - 1000) || y < (oPlayer.y - 1000) || y > (oPlayer.y+- 1000)
+if x > (oPlayer.x + 1000) || x < (oPlayer.x - 1000) || y < (oPlayer.y - 1000) || y > (oPlayer.y + 1000)
 {
-	x = oPlayer.x;
-	y = oPlayer.y;
+	if dogfollow == true
+	{
+		x = oPlayer.x + (global.PortWidth / 2);
+		y = oPlayer.y + (global.PortHeight / 2);
+	}
 }
