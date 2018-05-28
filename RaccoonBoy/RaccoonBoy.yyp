@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "334f46d1-3535-46f8-9ef6-7d79d0e60823",
+            "Value": {
+                "id": "768a0dc0-21e0-480c-8cd9-a903be5addf3",
+                "resourcePath": "objects\\oDog\\oDog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33b11e4b-045c-45a1-8010-88f209cf4ccb",
             "Value": {
                 "id": "9c3f70a7-0f68-463c-917f-d73f8e181167",
@@ -1431,14 +1439,6 @@
             }
         },
         {
-            "Key": "cbe49345-ac48-466d-ac4c-906f965fb704",
-            "Value": {
-                "id": "f2fba786-8000-4f54-ba9f-00c4e6974bb8",
-                "resourcePath": "objects\\oDog\\oDog.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cc92a94f-3483-48db-b986-3751d92ba9fb",
             "Value": {
                 "id": "00479c61-007d-4046-ac13-8eae0ca23f82",
@@ -1687,6 +1687,14 @@
             }
         },
         {
+            "Key": "ef366772-26df-487d-9336-49a765f84a33",
+            "Value": {
+                "id": "ec2e2b67-2374-4e3f-855a-ea392f716129",
+                "resourcePath": "scripts\\DogScript\\DogScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ef60ddeb-4685-4588-8f35-669b76e929ed",
             "Value": {
                 "id": "96b19b40-02d9-4613-acc5-0de862c97857",
@@ -1864,7 +1872,8 @@
         "e96c54bf-e4e0-4148-8aa6-98bc29cca12e",
         "b30c784a-1d35-4379-983a-64c7f664a5b7",
         "0601a227-8e7a-4ef1-8c49-9142f7826a15",
-        "058072a7-85a5-4baa-a23c-ef98eb328387"
+        "058072a7-85a5-4baa-a23c-ef98eb328387",
+        "ef366772-26df-487d-9336-49a765f84a33"
     ],
     "tutorial": ""
 }

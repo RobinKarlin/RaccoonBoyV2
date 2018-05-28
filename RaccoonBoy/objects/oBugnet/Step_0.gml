@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 x = oPlayer.x;
-y = oPlayer.y;
+y = oPlayer.y - 5;
 
 image_angle = angling;
 angling -= 7;

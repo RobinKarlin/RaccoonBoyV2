@@ -1,4 +1,4 @@
-/// @description TemplateNPC
+/// @description
 
 if collision_circle(x, y, collisionradius, oPlayer, false, true) {
 	WithinReach = true
@@ -24,6 +24,7 @@ if WithinReach = true {
 				myTextBox.Creator = self
 				myTextBox.Text = myText
 				myTextBox.Name = myName
+				dogfollow = true;
 			}
 		}	
 } else {
@@ -131,3 +132,53 @@ if !lastanswer > -1 && answernumber == 1
 	//textnumber
 }
 
+if myTextBox = noone && dogfollow = true
+{
+	script_execute(DogScript,0);
+	xorigin = oPlayer.x;
+	yorigin = oPlayer.y;
+}
+
+if keyboard_check_pressed(ord("B"))
+{
+	if dogfollow = true
+	{
+		dogfollow = false;
+	}
+	else
+	{
+		dogfollow = true;
+	}
+}
+
+if dogfollow = false && collision_circle(x, y, 500, oCarpenter, false, true)
+{
+	//If dog is too far to the right of carpenter
+	if x > (oCarpenter.x - 32)
+	{
+		x -= bugspeed * 1;
+	}
+	//If dog is too far to the left of carpenter
+	if x < (oCarpenter.x -32)
+	{
+		x += bugspeed * 1;
+	}
+	//If dog is below of carpenter
+	if y > (oCarpenter.y)
+	{
+		y -= bugspeed * 1;
+	}
+	//If dog is above of carpenter
+	if y < (oCarpenter.y)
+	{
+		y += bugspeed * 1;
+	}
+	
+}
+
+//if dog is outside of view
+if x > (oPlayer.x + 1000) || x < (oPlayer.x - 1000) || y < (oPlayer.y - 1000) || y > (oPlayer.y+- 1000)
+{
+	x = oPlayer.x;
+	y = oPlayer.y;
+}

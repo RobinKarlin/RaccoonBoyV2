@@ -78,7 +78,7 @@ if bugdir = 6
 if bugdir = 7
 {
 	x += bugspeed * 1;
-	y -= bugspeed * 1;
+	y += bugspeed * 1;
 }
 
 if bugdir = 8
