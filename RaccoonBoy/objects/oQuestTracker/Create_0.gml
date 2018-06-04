@@ -10,3 +10,6 @@ pentapoints = 0;
 
 //Testvariable
 testvariable = 0;
+
+//Dog follow state variable
+dogfollow = false;

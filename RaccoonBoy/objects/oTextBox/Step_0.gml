@@ -5,7 +5,7 @@ key_progress = oPlayer.key_button2;
 
 if key_progress = true
 {
-	if Page + 1 < array_length_1d(Text) 
+	if Page + 1 < array_length_1d(Text) && !(string_length(Creator.myText[Page+1]) < 1)
 	{
 		Page += 1
 		charCount = 0

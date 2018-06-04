@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "52848482-941e-4b0e-b89f-a76e52b3cf70",
+            "Value": {
+                "id": "86f83b77-c15c-4828-8536-3dacea2dda20",
+                "resourcePath": "objects\\oCarpenter\\oCarpenter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "554e91fd-b8d2-48e3-83fe-01434ad8405e",
             "Value": {
                 "id": "ef2415ec-9845-423a-9287-63dc810fe0e3",
@@ -762,7 +770,7 @@
             "Key": "71380be7-0cb3-4fb1-85a0-3a61cba2ed7d",
             "Value": {
                 "id": "0aa01e68-e223-44cd-9a2f-c0528723a6d3",
-                "resourcePath": "objects\\oCarpenter\\oCarpenter.yy",
+                "resourcePath": "objects\\oldoCarpenter\\oldoCarpenter.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -1,3 +1,3 @@
-/// @description Insert description here
+/// @description Resetting textbox
 myTextBox = noone
 

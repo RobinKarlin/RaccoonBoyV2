@@ -16,6 +16,7 @@ draw_text_ext(global.PortWidth / 2,y-5,Name,25,30)
 charCount += 3
 Print = string_copy(Text[Page],1,charCount)
 
+
 draw_set_font(Font)
 draw_set_halign(fa_left)
 draw_set_color(FontColor)

@@ -1,6 +1,4 @@
-/// @description
-if !collision_circle(x, y, collisionradius, oCarpenter, false, true)
-{
+/// @description TemplateNPC
 
 if collision_circle(x, y, collisionradius, oPlayer, false, true) {
 	WithinReach = true
@@ -26,7 +24,6 @@ if WithinReach = true {
 				myTextBox.Creator = self
 				myTextBox.Text = myText
 				myTextBox.Name = myName
-				oQuestTracker.dogfollow = true;
 			}
 		}	
 } else {
@@ -125,66 +122,16 @@ if answershown == true && myTextBox = noone
 if !lastanswer > -1 && answernumber == 0
 {
 	variable_instance_set(oQuestTracker.questtrackerid,variabletochange[lastanswer], variablevalue[lastanswer]);
-	//textnumber
+	textstate = textnumber[0];
+	if lastanswer == 1
+	{
+		textstate = textnumber[1];
+	}
 }
 
 if !lastanswer > -1 && answernumber == 1
 {
 	variable_instance_set(oQuestTracker.questtrackerid,secondvariabletochange[lastanswer], secondvariablevalue[lastanswer]);
-	//textnumber
+	textstate = textnumber[1];
 }
 
-if myTextBox = noone && oQuestTracker.dogfollow = true
-{
-	script_execute(DogScript,0);
-	xorigin = oPlayer.x;
-	yorigin = oPlayer.y;
-}
-
-}
-if keyboard_check_pressed(ord("B"))
-{
-	if oQuestTracker.dogfollow = true
-	{
-		oQuestTracker.dogfollow = false;
-	}
-	else
-	{
-		oQuestTracker.dogfollow = true;
-	}
-}
-
-if oQuestTracker.dogfollow = false && collision_circle(x, y, 500, oCarpenter, false, true)
-{
-	//If dog is too far to the right of carpenter
-	if x > (oCarpenter.x - 32)
-	{
-		x -= bugspeed * 1;
-	}
-	//If dog is too far to the left of carpenter
-	if x < (oCarpenter.x -32)
-	{
-		x += bugspeed * 1;
-	}
-	//If dog is below of carpenter
-	if y > (oCarpenter.y)
-	{
-		y -= bugspeed * 1;
-	}
-	//If dog is above of carpenter
-	if y < (oCarpenter.y)
-	{
-		y += bugspeed * 1;
-	}
-	
-}
-
-//if dog is outside of view
-if x > (oPlayer.x + 1000) || x < (oPlayer.x - 1000) || y < (oPlayer.y - 1000) || y > (oPlayer.y + 1000)
-{
-	if oQuestTracker.dogfollow == true
-	{
-		x = oPlayer.x + (global.PortWidth / 2);
-		y = oPlayer.y + (global.PortHeight / 2);
-	}
-}
