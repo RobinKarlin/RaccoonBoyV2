@@ -142,7 +142,9 @@ if myTextBox = noone && oQuestTracker.dogfollow = true
 }
 
 }
-if keyboard_check_pressed(ord("B"))
+
+//debug funktion
+if keyboard_check_pressed(ord("B")) && global.debug = true
 {
 	if oQuestTracker.dogfollow = true
 	{

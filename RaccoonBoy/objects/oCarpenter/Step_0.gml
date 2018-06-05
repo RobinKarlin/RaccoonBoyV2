@@ -1,10 +1,15 @@
 /// @description 
 
 // NPC-specific code
-if oQuestTracker.dogfollow = 1 //|| oQuestTracker.dogfollow = 1 && textstate = 1
+if oQuestTracker.dogfollow == 1 && runonce[1] == false 
 {
 	textstate = 2;
-	textprogress20 = 0;
+	textshown = true;
+	runonce[1] = true;
+}
+if oQuestTracker.dogfollow == 1 && collision_circle(x, y, collisionradius, oPlayer, false, true)
+{
+	oQuestTracker.dogfollow = 0
 }
 
 if collision_circle(x, y, collisionradius, oPlayer, false, true) {
@@ -21,10 +26,10 @@ if answershown == true && !(textnumber[lastanswer] < 0)
 }
 
 //om svarsbox ska spawna i slutet på första konversationen
-if runonce == false && answerbox[1] == true
+if runonce[0] == false && answerbox[1] == true
 {
 	askforanswer = true;
-	runonce = true;
+	runonce[0] = true;
 }
 
 //Stops functionality if there is a pickupable item in the vicinity or inventory is open to avoid conflict. otherobjectwithinreach is declared in begin_step
@@ -51,7 +56,7 @@ if WithinReach = true {
 //Secondtext
 if textprogress = 2 && textshown = true && textstate <= 0 && !(string_length(secondtext[0]) < 1)
 {
-	for (i = 0; i < array_length_1d(myText); i++)//Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -73,7 +78,7 @@ if textprogress = 2 && textshown = true && textstate <= 0 && !(string_length(sec
 //thirdtext
 if textprogress = 3 && textshown = true && textstate <= 0 && !(string_length(thirdtext[0]) < 1)
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -95,7 +100,7 @@ if textprogress = 3 && textshown = true && textstate <= 0 && !(string_length(thi
 //fourthtext
 if textprogress = 4 && textshown = true && textstate <= 0 && !(string_length(fourthtext[0]) < 1)
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -117,7 +122,7 @@ if textprogress = 4 && textshown = true && textstate <= 0 && !(string_length(fou
 //fifthtext
 if textprogress = 5 && textshown = true && textstate <= 0 && !(string_length(fifthtext[0]) < 1)
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -140,7 +145,7 @@ if textprogress = 5 && textshown = true && textstate <= 0 && !(string_length(fif
 //Textstate 1, part 1
 if textstate = 1 && textshown = true && textprogress10 == 0
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -162,7 +167,7 @@ if textstate = 1 && textshown = true && textprogress10 == 0
 //Textstate 1, part 2
 if textstate = 1 && textshown = true && textprogress10 = 1
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -184,11 +189,11 @@ if textstate = 1 && textshown = true && textprogress10 = 1
 //Textstate 1, part 3
 if textstate = 1 && textshown = true && textprogress10 = 2
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
-	textprogress ++;
+	
 	var i;
 	i = 0;
 	for (i = 0; i < array_length_1d(eventtext12); i += 1)
@@ -206,7 +211,7 @@ if textstate = 1 && textshown = true && textprogress10 = 2
 //Textstate 2, part 1
 if textstate = 2 && textshown = true && textprogress20 = 0
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -218,7 +223,6 @@ if textstate = 2 && textshown = true && textprogress20 = 0
 		myText[i] = eventtext20[i];
 	}
 	textshown = false;
-	oQuestTracker.dogfollow = 0; //Npcspecifik
 	//om svarsbox ska spawna i slutet på konversationen
 	if answerbox[20] == true
 	{
@@ -229,7 +233,7 @@ if textstate = 2 && textshown = true && textprogress20 = 0
 //Textstate 2, part 2
 if textstate = 2 && textshown = true && textprogress20 = 1
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -251,7 +255,7 @@ if textstate = 2 && textshown = true && textprogress20 = 1
 //Textstate 2, part 3
 if textstate = 2 && textshown = true && textprogress20 = 2
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -273,7 +277,7 @@ if textstate = 2 && textshown = true && textprogress20 = 2
 //Textstate 3, part 1
 if textstate = 3 && textshown = true && textprogress30 = 0
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -295,7 +299,7 @@ if textstate = 3 && textshown = true && textprogress30 = 0
 //Textstate 3, part 2
 if textstate = 3 && textshown = true && textprogress30 = 1
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}
@@ -317,7 +321,7 @@ if textstate = 3 && textshown = true && textprogress30 = 1
 //Textstate 3, part 3
 if textstate = 3 && textshown = true && textprogress30 = 2
 {
-	for (i = 0; i < array_length_1d(myText); i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
+	for (i = 0; i < 10; i++) //Resetting mytext before setting a new one. Statement within oAnswerbox decides that no string smaller than 1 shall be shown.
 	{
 		myText[i] = "";
 	}

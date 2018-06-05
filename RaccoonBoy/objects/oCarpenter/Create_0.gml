@@ -7,7 +7,8 @@ WithinReach = false
 otherobjectwithinreach = false;
 collisionradius = 45; //Change this to adjust the interactionradius
 myTextBox = noone
-runonce = false;
+runonce[0] = false;
+runonce[1] = false;
 
 //Textspecific variables
 textstate = 0; //Use for quests & events
@@ -22,9 +23,9 @@ textshown = false; //Checks if text has been successfully shown
 askforanswer = false; //no touchy, if this is true the next textbox will spawn one oanswerbox.
 answershown = false; //no touchy, this temporarily checks if an answer has been given to this npc.
 
-answeramount = 4; //Change this to change how many answers are shown (2 or 4)
-answer[0] = "yes";
-answer[1] = "no";
+answeramount = 2; //Change this to change how many answers are shown (2 or 4)
+answer[0] = "Yes!";
+answer[1] = "No!";
 answer[2] = "";
 answer[3] = "";
 
@@ -82,7 +83,7 @@ eventtext11[1] = ""
 answerbox[11] = false;
 
 //textstate = 1. Part 3. Event or quest text, priority over normal text.
-eventtext12[0] = ""
+eventtext12[0] = "You just come talk to me when you find my dog will'ya? I'm not leaving here until she gets back"
 eventtext12[1] = ""
 
 answerbox[12] = false;
@@ -100,7 +101,7 @@ eventtext21[1] = ""
 answerbox[21] = false;
 
 //textstate = 2. Part 3. 2nd eventtext
-eventtext22[0] = ""
+eventtext22[0] = "Well, thanks again. I won't forget you getting mah dog back!"
 eventtext22[1] = ""
 
 answerbox[22] = false;
@@ -128,11 +129,11 @@ answernumber = -1; //This variable checks how many answers has been given defaul
 //First answer consequences
 //Consequence variables are contained only in oQuestTracker, Please make sure to comment all variables therein.
 //If lastanswer is 0
-variabletochange[0] = "dogfollow"; //Which variable to change after the answer has been given?
-variablevalue[0] = 0; //Which value should the variable change to after the answer has been given?
+variabletochange[0] = ""; //Which variable to change after the answer has been given?
+variablevalue[0] = ""; //Which value should the variable change to after the answer has been given?
 textnumber[0] = 1; //Which textstate should the NPC be put into after the answer has been given?
 //If lastanswer is 1
-variabletochange[1] = "testvariable"; //Which variable to change after the answer has been given?
+variabletochange[1] = ""; //Which variable to change after the answer has been given?
 variablevalue[1] = ""; //Which value should the variable change to after the answer has been given?
 textnumber[1] = noone; //Which textstate should the NPC be put into after the answer has been given?
 //If lastanswer is 2
