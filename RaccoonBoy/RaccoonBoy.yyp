@@ -66,7 +66,7 @@
             "Key": "0601a227-8e7a-4ef1-8c49-9142f7826a15",
             "Value": {
                 "id": "6c2582b0-6ff8-49d5-a7f6-8340901bcee1",
-                "resourcePath": "scripts\\script14\\script14.yy",
+                "resourcePath": "scripts\\FontReset\\FontReset.yy",
                 "resourceType": "GMScript"
             }
         },

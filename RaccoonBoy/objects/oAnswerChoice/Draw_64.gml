@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_set_font(fInGame)
+draw_set_font(fInGame);
+draw_set_color(c_black);
 draw_self();
 
 x = oAnswerBox.guix + oAnswerBox.padding;
@@ -15,3 +16,5 @@ else
 	{
 		waittime --;
 	}
+
+FontReset();

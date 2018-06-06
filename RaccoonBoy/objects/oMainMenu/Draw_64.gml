@@ -68,3 +68,5 @@ switch (State) {
 	}
 	break
 }
+
+draw_set_font(-1)

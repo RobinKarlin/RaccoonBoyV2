@@ -24,5 +24,6 @@ draw_text_ext(x+Padding,y+TopPadding,Print,25,MaxLength)
 
 //fontsaver/reseter
 draw_set_font(-1);
+draw_set_color(c_white)
 
 
