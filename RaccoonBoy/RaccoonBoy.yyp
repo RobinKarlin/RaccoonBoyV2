@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0dd61f89-63c8-493c-9550-97f9ada918da",
+            "Value": {
+                "id": "1c19e448-3949-4f3f-86eb-52088da38acc",
+                "resourcePath": "objects\\oNpcTemplate\\oNpcTemplate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e6dd55b-140d-47e5-b4a4-71631393a321",
             "Value": {
                 "id": "0e611bb3-b4a0-49b8-bcc5-1ce2420bb255",
@@ -428,6 +436,14 @@
                 "id": "2b9f8f57-53ba-420b-b409-7edbcf19c5b0",
                 "resourcePath": "objects\\oOptions\\oOptions.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3576fa2e-9e6f-4787-b7cf-052e18eed945",
+            "Value": {
+                "id": "2afb38cd-0ee6-47e7-be73-3f1e87114235",
+                "resourcePath": "views\\3576fa2e-9e6f-4787-b7cf-052e18eed945.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -763,14 +779,6 @@
             "Value": {
                 "id": "6a269214-ae57-43b5-864d-869b3a786f36",
                 "resourcePath": "objects\\oMainMenu\\oMainMenu.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "71380be7-0cb3-4fb1-85a0-3a61cba2ed7d",
-            "Value": {
-                "id": "0aa01e68-e223-44cd-9a2f-c0528723a6d3",
-                "resourcePath": "objects\\oldoCarpenter\\oldoCarpenter.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1335,14 +1343,6 @@
             }
         },
         {
-            "Key": "b9bab8d7-57f3-4265-abd0-7f8780b918ea",
-            "Value": {
-                "id": "2f109835-2937-4d7d-a2ee-2c358850469d",
-                "resourcePath": "objects\\oNpcTemplate\\oNpcTemplate.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ba34bbad-b174-467d-b79a-29b9814c0936",
             "Value": {
                 "id": "b80201b0-0a41-4108-a399-714e369a4ec6",
@@ -1671,6 +1671,14 @@
             }
         },
         {
+            "Key": "eb0d6bc6-c57b-451e-86d7-3ed5fc6c79f4",
+            "Value": {
+                "id": "7f630807-1c5e-489b-954b-a9fcb3deb780",
+                "resourcePath": "scripts\\NpcMovement\\NpcMovement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "eb3527c4-12cf-4c98-8152-9531ce2d5cca",
             "Value": {
                 "id": "2eb2d936-5508-4905-bdb1-51bb6d08cb78",
@@ -1881,7 +1889,8 @@
         "b30c784a-1d35-4379-983a-64c7f664a5b7",
         "0601a227-8e7a-4ef1-8c49-9142f7826a15",
         "058072a7-85a5-4baa-a23c-ef98eb328387",
-        "ef366772-26df-487d-9336-49a765f84a33"
+        "ef366772-26df-487d-9336-49a765f84a33",
+        "eb0d6bc6-c57b-451e-86d7-3ed5fc6c79f4"
     ],
     "tutorial": ""
 }

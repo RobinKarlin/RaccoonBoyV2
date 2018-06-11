@@ -9,6 +9,29 @@ collisionradius = 45; //Change this to adjust the interactionradius
 myTextBox = noone
 runonce = false;
 
+//NPC movement No touchy
+npcdir = 0;
+dircooldown = 0;
+
+hsp = 0;
+vsp = 0;
+
+stoprandom = false;
+diagonalposition[0] = false;
+diagonalposition[1] = false;
+diagonalposition[2] = false;
+diagonalposition[3] = false;
+
+xorigin = x;
+yorigin = y;
+
+//Movementoptions
+verticalmovement = false; //turns vertical movement on and off
+horizontalmovement = false; //turns horizontal movement on and off
+npcspeed = 2; //yes, this is speed
+range = 225; //in pixels from spawnpoint
+maxdircooldown = 35; //Amount of steps before a new direction is randomized
+
 //Textspecific variables
 textstate = 0; //Use for quests & events
 textprogress = 2; //Check progress of text. Defaultvalue = 2
@@ -16,7 +39,6 @@ textprogress10 = 0; //Checks progress of questtext1. Defaultvalue 0.
 textprogress20 = 0; //Checks progress of questtext1. Defaultvalue 0.
 textprogress30 = 0; //Checks progress of questtext1. Defaultvalue 0.
 textshown = false; //Checks if text has been successfully shown
-
 
 //Answers
 askforanswer = false; //no touchy, if this is true the next textbox will spawn one oanswerbox.

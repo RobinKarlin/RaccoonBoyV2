@@ -355,3 +355,7 @@ if !lastanswer > -1 && answernumber == 1
 	variable_instance_set(oQuestTracker.questtrackerid,secondvariabletochange[lastanswer], secondvariablevalue[lastanswer]);
 }
 
+if !(instance_exists(oAnswerChoice)) && !(instance_exists(oTextBox))
+{
+	NpcMovement();
+}
