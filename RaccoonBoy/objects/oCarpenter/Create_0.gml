@@ -89,7 +89,7 @@ eventtext12[1] = ""
 answerbox[12] = false;
 
 //textstate = 2. Part 1. 2nd eventtext
-eventtext20[0] = "Oh you found my dog, man. Thats great, thanks a bunch! She kinda runs away sometimes, chasin' chickens and whatnot. But shes good company out here where not many peeps move hang out. Have'nt seen you around before, are from away lands or somethin'?"
+eventtext20[0] = "Oh you found my dog, man. Thats great, thanks a bunch! She runs away sometimes, chasin' chickens and whatnot. But shes good company out here where not many people hang out. Have'nt seen you around before, are from away lands or somethin'?"
 eventtext20[1] = ""
 
 answerbox[20] = false;
