@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0d637e56-4a35-49a7-8812-91a3ab888ebf",
+            "Value": {
+                "id": "2e9e858f-ed75-4c44-8e84-d64a8c567d69",
+                "resourcePath": "views\\0d637e56-4a35-49a7-8812-91a3ab888ebf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0dd61f89-63c8-493c-9550-97f9ada918da",
             "Value": {
                 "id": "1c19e448-3949-4f3f-86eb-52088da38acc",
@@ -187,6 +195,14 @@
             "Value": {
                 "id": "9c6f4e32-2a5c-439d-9244-8753b9b89ee9",
                 "resourcePath": "sprites\\sCarpenter\\sCarpenter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "16202379-bcfd-49c2-8c7f-08c6e278a6fa",
+            "Value": {
+                "id": "072898ee-81dd-418b-a02f-4fe8b34a7b5e",
+                "resourcePath": "sprites\\sAnimalHB128\\sAnimalHB128.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -340,6 +356,14 @@
                 "id": "279c4aaa-9a86-4ad0-9351-43630c9385b8",
                 "resourcePath": "sprites\\sAnswerSelecor\\sAnswerSelecor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2b7abfec-6c32-4102-a7a2-bd7498ca1e8f",
+            "Value": {
+                "id": "a121c4b4-b668-4e5a-85ac-e77bf27df95b",
+                "resourcePath": "objects\\oAnimalCircle128\\oAnimalCircle128.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -684,6 +708,14 @@
                 "id": "045c8ba7-0425-4735-90d5-613b37772ed5",
                 "resourcePath": "views\\5d13a777-94c3-4992-97d3-e897a1758aef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5d257d9a-a9ac-4a24-967d-01198a981819",
+            "Value": {
+                "id": "95fd95cd-66fc-412a-a60a-3aaec907cf8d",
+                "resourcePath": "objects\\oPurplestuff128\\oPurplestuff128.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1207,6 +1239,14 @@
             }
         },
         {
+            "Key": "a782d421-27bc-4a8c-a098-1594538e3396",
+            "Value": {
+                "id": "b3e4cd10-b055-4572-a1f4-79cf7a4a5926",
+                "resourcePath": "objects\\oBugcopy\\oBugcopy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a87ba6c0-afad-4587-b208-03c29be54045",
             "Value": {
                 "id": "8f5cb2c1-7018-4b25-8b1b-4d38018b3d31",
@@ -1612,6 +1652,14 @@
                 "id": "2f344168-aedb-4bbd-9729-49a98a66dfdc",
                 "resourcePath": "views\\e38eebbe-4015-4317-aec4-b0b89d9c53aa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e526e7ff-db5e-4a51-9b55-1080bcfe4d6c",
+            "Value": {
+                "id": "81749ba7-85cd-4e84-a9e4-64766f63002c",
+                "resourcePath": "sprites\\sAnimalCircle128\\sAnimalCircle128.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
