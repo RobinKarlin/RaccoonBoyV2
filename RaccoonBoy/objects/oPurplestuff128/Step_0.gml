@@ -2,7 +2,14 @@
 // You can write your code in this editor
 
 image_angle = angling;
-angling -= 7;
+if turndir = 1
+{
+	angling -= anglespeed;
+}
+else
+{
+	angling += anglespeed
+}
 
 x = creator.x;
 y = creator.y;

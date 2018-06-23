@@ -20,5 +20,5 @@ draw_sprite_stretched(sprite_index, -1, posx , posy, adaptivex, adaptivey);
 x = camera_get_view_width(0) / 2 - sprite_width;
 y = sprite_height * 3;
 
-draw_sprite_stretched(sprite_index, ActiveItem, x, y - 64, 128, 128);
+draw_sprite_stretched(sprite_index, oQuestTracker.ActiveItem, x, y - 64, 128, 128);
 

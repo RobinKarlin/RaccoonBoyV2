@@ -88,8 +88,8 @@ if oInventorySetup.inventory[inventoryid] = 6
 }
 
 
-//If this item is activated, send itemid to oActiveItemGui to show in the GUI
+//If this item is activated, send itemid to oQuestTracker.ActiveItem to show in the GUI
 if itemactivated = true
 {
-	oActiveItemGUI.ActiveItem = itemid;
+	oQuestTracker.ActiveItem = itemid;
 }

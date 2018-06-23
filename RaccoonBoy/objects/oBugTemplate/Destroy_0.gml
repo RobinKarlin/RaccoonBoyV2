@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-with oPlayer
+var i
+i = 0
+for (i = 0; i < childrenamount; i ++)
 {
-	if key_button2
-	{
-		instance_destroy(other.creator);
-	}
+instance_destroy(children[i]);
 }

@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "2df0f995-3230-406c-8ff1-eea96a3a0b0a",
+            "Value": {
+                "id": "eb53673e-3934-4835-8173-b0b82f61db83",
+                "resourcePath": "sprites\\sSanityBarFill\\sSanityBarFill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f152c8a-db1b-4528-89d1-8ed32562b3dc",
             "Value": {
                 "id": "685f567c-e8b2-44db-8fd4-36811b2b5741",
@@ -468,6 +476,22 @@
                 "id": "2afb38cd-0ee6-47e7-be73-3f1e87114235",
                 "resourcePath": "views\\3576fa2e-9e6f-4787-b7cf-052e18eed945.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35c45a22-185e-49c5-9b85-2dec0eec48b6",
+            "Value": {
+                "id": "68d76a33-6c1f-4bbd-a32b-c0f7ed1c4a73",
+                "resourcePath": "objects\\oSanityfiller\\oSanityfiller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "369830d7-b8c3-42d2-a072-76d26a9529fb",
+            "Value": {
+                "id": "8bdc4234-2daf-40aa-bbf0-a2b47c32096e",
+                "resourcePath": "objects\\oGUIparent\\oGUIparent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -783,6 +807,14 @@
             }
         },
         {
+            "Key": "6c6d77d0-4a28-4034-a2d8-b2531436db3c",
+            "Value": {
+                "id": "af2ccb78-2743-4a86-a5ab-a9ecaa3b76d6",
+                "resourcePath": "views\\6c6d77d0-4a28-4034-a2d8-b2531436db3c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6d28ae85-fa15-46cc-a26d-46530e6da3a8",
             "Value": {
                 "id": "a964d062-e565-45c8-b530-006eb5924119",
@@ -911,6 +943,14 @@
             }
         },
         {
+            "Key": "78fca6ac-4e94-4491-adb3-35520dcd841d",
+            "Value": {
+                "id": "357d93e0-3283-4c80-a2f5-75d14dfe9f53",
+                "resourcePath": "views\\78fca6ac-4e94-4491-adb3-35520dcd841d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7cb64d09-382d-4e43-9c22-ceefb9fa802d",
             "Value": {
                 "id": "e9317cf6-b9b2-443d-96ac-e937af803d5e",
@@ -939,6 +979,14 @@
             "Value": {
                 "id": "6d2ad509-27c8-4d2c-ad29-073e797474d4",
                 "resourcePath": "views\\7f837652-26c1-4a91-bed5-aa3a1df1dfc3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8277ed64-9bd1-4267-aea7-69f7cb664e43",
+            "Value": {
+                "id": "fba86c13-3af3-4c46-9ce7-33ace2819c70",
+                "resourcePath": "views\\8277ed64-9bd1-4267-aea7-69f7cb664e43.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1231,6 +1279,14 @@
             }
         },
         {
+            "Key": "a46235a1-49f0-4f42-8648-69814fab9e74",
+            "Value": {
+                "id": "c5d0e171-65a7-4d37-8443-dec84045888f",
+                "resourcePath": "objects\\oSanityBar\\oSanityBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a54031c4-d3c4-44dd-8716-f108c6b0a48e",
             "Value": {
                 "id": "a2420a97-b2a2-4e5e-91e4-839199de612c",
@@ -1242,7 +1298,7 @@
             "Key": "a782d421-27bc-4a8c-a098-1594538e3396",
             "Value": {
                 "id": "b3e4cd10-b055-4572-a1f4-79cf7a4a5926",
-                "resourcePath": "objects\\oBugcopy\\oBugcopy.yy",
+                "resourcePath": "objects\\oBugTemplate\\oBugTemplate.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1267,6 +1323,14 @@
             "Value": {
                 "id": "aea946e8-3086-4fa1-8eb6-a9891a51bff8",
                 "resourcePath": "sprites\\sCollisionTile\\sCollisionTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aa4fb7e4-c38a-45b3-b1e1-1909cb4d7ffd",
+            "Value": {
+                "id": "dcf1ad95-c1ef-4d9a-a1b0-84c5af5f49b9",
+                "resourcePath": "sprites\\sSanityBarOutline\\sSanityBarOutline.yy",
                 "resourceType": "GMSprite"
             }
         },

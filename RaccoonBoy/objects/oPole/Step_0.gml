@@ -1,5 +1,5 @@
 //Textbox adjustments
-if oActiveItemGUI.ActiveItem == 5
+if oQuestTracker.ActiveItem == 5
 {
 	if myTextBox = noone
 	{
@@ -14,7 +14,7 @@ if oActiveItemGUI.ActiveItem == 5
 	}
 }
 
-if oActiveItemGUI.ActiveItem != 5
+if oQuestTracker.ActiveItem != 5
 {
 	myText[0] = "A sturdy pole.";
 }
@@ -50,7 +50,7 @@ if WithinReach = true
 
 	if oPlayer.key_button2
 	{
-		if oActiveItemGUI.ActiveItem == 5 && !instance_exists(oRope) && runonce = false && !instance_exists(oTextBox) && enablerope = true
+		if oQuestTracker.ActiveItem == 5 && !instance_exists(oRope) && runonce = false && !instance_exists(oTextBox) && enablerope = true
 		{
 			with instance_create_layer(x, y, oPlayer.playerlayerID, oRope)
 			{

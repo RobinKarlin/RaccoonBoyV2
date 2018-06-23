@@ -75,10 +75,10 @@ if !instance_exists(oDebug)
 instance_create_layer(x, y, layer, oDebug);
 }
 
-//Create object oActiveItemGUI
-if !instance_exists(oActiveItemGUI)
+//Create object oGUIparent
+if !instance_exists(oGUIparent)
 {
-instance_create_layer(0, 0, layer, oActiveItemGUI);
+instance_create_layer(0, 0, layer, oGUIparent);
 }
 
 //Create object oQuestTracker

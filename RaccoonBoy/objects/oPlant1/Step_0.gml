@@ -11,7 +11,7 @@ if otherobjectwithinreach == false && !instance_exists(oInventoryBase)
 {
 
 //Textbox & actions
-if WithinReach = true && oActiveItemGUI.ActiveItem = 2
+if WithinReach = true && oQuestTracker.ActiveItem = 2
 {	
 	if oPlayer.key_button2 {	
 		if myTextBox == noone {
