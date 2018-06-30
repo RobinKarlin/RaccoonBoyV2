@@ -22,6 +22,8 @@ yorigin = y;
 children[0] = noone;
 childrenamount = 0;
 
+tilemap = layer_tilemap_get_id("CollisionTiles"); // for tilemap collisions
+
 //NPCvariables touchy ok
 sanitydamage = 4; // sanitydmg per second
 areaobject = oPurplestuff128;

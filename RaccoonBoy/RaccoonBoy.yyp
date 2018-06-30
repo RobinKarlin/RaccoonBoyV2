@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "4bdeb4d6-2094-49fc-a21d-d42fc539fb4e",
+            "Value": {
+                "id": "8b5c473a-6f84-4d7f-a0fe-a5745349dd67",
+                "resourcePath": "sprites\\sBirdie\\sBirdie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c14b5ee-7bcd-4cc8-acec-5b41263bb0e5",
             "Value": {
                 "id": "b856d8a8-3e45-48ca-9583-fca5b2f40468",
@@ -1471,6 +1479,14 @@
             }
         },
         {
+            "Key": "bdf4b18c-1012-4a52-a2da-1b2d862fe364",
+            "Value": {
+                "id": "5e56d56a-3996-4a98-874f-55872a27ff19",
+                "resourcePath": "objects\\oBurd\\oBurd.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be84b3c8-edd4-43e8-b7dd-04bf422da02a",
             "Value": {
                 "id": "03bfd056-af93-4734-ac07-e783316c3520",
@@ -1716,6 +1732,14 @@
                 "id": "2f344168-aedb-4bbd-9729-49a98a66dfdc",
                 "resourcePath": "views\\e38eebbe-4015-4317-aec4-b0b89d9c53aa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e493bdb3-1eca-4729-aae6-c0a9eaa9dea0",
+            "Value": {
+                "id": "ce2920fa-46a2-441b-bcfd-0ca367364d11",
+                "resourcePath": "sprites\\sBirdieanim\\sBirdieanim.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

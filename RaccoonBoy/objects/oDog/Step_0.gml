@@ -136,7 +136,7 @@ if !lastanswer > -1 && answernumber == 1
 
 if myTextBox = noone && oQuestTracker.dogfollow = true
 {
-	script_execute(DogScript,0);
+	script_execute(NpcMovement,0);
 	xorigin = oPlayer.x;
 	yorigin = oPlayer.y;
 }
@@ -179,6 +179,10 @@ if oQuestTracker.dogfollow = false && collision_circle(x, y, 500, oCarpenter, fa
 		y += bugspeed * 1;
 	}
 	
+}
+if oQuestTracker.dogfollow = true
+{
+	TilePlayerCollision();
 }
 
 //if dog is outside of view

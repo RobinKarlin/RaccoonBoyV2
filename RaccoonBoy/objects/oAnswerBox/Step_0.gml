@@ -31,7 +31,7 @@ if runonce = false
 	}
 
 	//Creating oAnswerselector
-	instance_create_depth(x + padding, y + padding, -650, oAnswerSelector);
+	instance_create_depth(x + padding, y + padding, (depth -2), oAnswerSelector);
 
 	//Close inventory if open
 	if instance_exists(oInventoryBase)

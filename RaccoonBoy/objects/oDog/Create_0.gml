@@ -96,6 +96,7 @@ ResetDelay = 2
 WithinReach = false
 otherobjectwithinreach = false;
 collisionradius = 45; //Change this to adjust the interactionradius
+tilemap = layer_tilemap_get_id("CollisionTiles"); // for tilemap collisions
 
 textstate = 0; //Use for quests & events
 textprogress = 2; //Check progress of text. Defaultvalue = 2
@@ -108,10 +109,16 @@ diagonalposition[1] = false;
 diagonalposition[2] = false;
 diagonalposition[3] = false;
 
-bugdir = 0;
+//Movement variables
+npcdir = 0;
 dircooldown = 0;
-bugspeed = 4;
+maxdircooldown = 15;
+npcspeed = 4;
+hsp = 0;
+vsp = 0;
 range = 225;
+horizontalmovement = true;
+verticalmovement = true;
 
 xorigin = x;
 yorigin = y;

@@ -25,7 +25,9 @@
         "e930d29f-cd20-4a5d-b970-6ce6103d103d",
         "ed2f3271-de36-4e49-a531-c7f5d211f0c2",
         "e526e7ff-db5e-4a51-9b55-1080bcfe4d6c",
-        "16202379-bcfd-49c2-8c7f-08c6e278a6fa"
+        "16202379-bcfd-49c2-8c7f-08c6e278a6fa",
+        "e493bdb3-1eca-4729-aae6-c0a9eaa9dea0",
+        "4bdeb4d6-2094-49fc-a21d-d42fc539fb4e"
     ],
     "filterType": "GMSprite",
     "folderName": "PlaceHolders",

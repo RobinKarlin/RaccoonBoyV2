@@ -136,7 +136,7 @@ if npcdir = 2
 if npcdir = 3
 {
 	hsp =- npcspeed * 1;
-	vsp =+ npcspeed * 1;
+	vsp =- npcspeed * 1;
 }
 
 if npcdir = 4

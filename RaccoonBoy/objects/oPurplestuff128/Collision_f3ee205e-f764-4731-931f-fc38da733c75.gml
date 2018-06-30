@@ -1,9 +1,48 @@
 /// @description Insert description here
 // You can write your code in this editor
-with oPlayer
+
+
+//Problem pga key_button2 är key_pressed check, behöver ev remake på kontrollsystemet.
+if holdbutton == true && areaid.delay == areaid.maxdelay
 {
-	if key_button2
+	with oPlayer
+	{ 
+		if key_button2
+		{
+			other.holdtimer --;
+		}
+	}
+
+} 
+if holdtimer < maxholdtimer 
 	{
-		instance_destroy(other.creator);
+		with oPlayer
+		{
+			if key_button2
+			{
+				other.holdtimer --
+			}
+			else
+			{
+				other.holdtimer = other.maxholdtimer;
+			}
+		}
+	}
+
+if areaid.delay = areaid.maxdelay && holdbutton == false
+{
+	with oPlayer
+	{
+		if key_button2 
+		{
+			instance_destroy(other.creator);
+		}
 	}
 }
+
+if holdtimer <= 0
+{
+	instance_destroy(creator);
+}
+
+oPlayer.inputdelay = 0;

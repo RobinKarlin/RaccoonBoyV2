@@ -11,5 +11,11 @@ else
 	angling += anglespeed
 }
 
+if runonce = false
+{
+	areaid = creator.children[1];
+	runonce = true;
+}
+
 x = creator.x;
 y = creator.y;

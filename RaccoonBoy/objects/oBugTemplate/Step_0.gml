@@ -22,5 +22,7 @@ if runonce = false
 }
 
 
-//Direction setter
+//Movement
 NpcMovement();
+
+TilePlayerCollision();
