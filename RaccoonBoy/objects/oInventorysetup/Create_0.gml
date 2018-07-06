@@ -19,8 +19,8 @@ inventoryheightoffset = 128; //The amount of pixels between bottom screen border
 4 = Bug 1
 5 = Rope
 6 = Pergament
-7 = 
-8 = 
+7 = oBerry
+8 = Bugcatching net
 9 = 
 10 = 
 

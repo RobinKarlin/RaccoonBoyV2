@@ -14,3 +14,12 @@ if room != room_first && runonce = false
 	}
 	runonce = true;
 }
+
+if oPause.pausestate != 1
+{
+	visible = false;
+}
+else
+{
+	visible = true;
+}

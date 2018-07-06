@@ -25,9 +25,11 @@ childrenamount = 0;
 tilemap = layer_tilemap_get_id("CollisionTiles"); // for tilemap collisions
 
 //NPCvariables touchy ok
-sanitydamage = 4; // sanitydmg per second
-areaobject = oPurplestuff128;
-hitboxobject = oAnimalCircle128;
+sanitydamage = 4; // sanitydmg per second within areaobject
+hitboxobject = oPurplestuff128;
+areaobject = oAnimalCircle128;
+spawnondeath = false; //Spawns an object on purification of purplstuff.
+spawnobject = oBug; //Object to spawn on purification of purplstuff.
 
 //Movementoptions, touchy ok
 verticalmovement = true; //turns vertical movement on and off
@@ -39,3 +41,7 @@ maxdircooldown = 35; //Amount of steps before a new direction is randomized
 //Purple hitbox options
 anglespeed = 7 //The turnspeed of the purple hitbox. 7 is default.
 turndir = 0 //the direction the purple hitbox spin. 1 for right, 0 for left.
+randomize_direction = false; //randomizes direction of rotation after "secondstorandomize" seconds.
+secondstorandomize = 1; //delay for randomizing direction of rotation.
+force_direction_change = false; //Forces a rotation-direction change after "dir_change_delay" seconds. Note that this overrides randomizing the direction.
+dir_change_delay = 0; //Seconds until forced rotation-direction change.

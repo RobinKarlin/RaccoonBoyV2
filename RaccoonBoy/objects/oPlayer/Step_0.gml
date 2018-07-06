@@ -68,7 +68,7 @@ else
 {
 
 
-if key_button4 && !instance_exists(oBugnet)
+if key_button4 && !instance_exists(oBugnet) && oQuestTracker.bugnet == true
 {
 	instance_create_layer(x, y, playerlayerID, oBugnet)
 }
@@ -112,10 +112,10 @@ if allowacceleration = true
 	script_execute(MovementAccel,0);
 }
 
-//*OLD Collisions
-if (place_meeting(x+hsp,y,oCollisionBlock)) || (place_meeting(x,y+vsp,oCollisionBlock))
+//Roadblock 
+if instance_exists(oRoadBlock)
 {
-script_execute(PlayerCollision,0);
+script_execute(Roadblockcollision,0);
 }
 
 //New Collision with tiles!

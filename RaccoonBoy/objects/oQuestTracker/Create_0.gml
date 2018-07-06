@@ -2,9 +2,12 @@
 
 // PLEASE MAKE SURE TO COMMENT ON ALL VARIABLES ON THIS PAGE!!!
 //Player stats and variables
-ActiveItem = 0;
-sanity = 100;
-maxsanity = 100;
+ActiveItem = 0;		//Itemid of item in activeitemslot
+
+sanity = 100;		//Current sanity
+maxsanity = 100;	//Max sanity
+
+bugnet = false;		//True if bugnet have been picked up.
 
 //Questvariables
 //Used by NPCs to find this object when referring to the variables within the answercodeblock.
@@ -18,3 +21,7 @@ testvariable = 0;
 
 //Dog follow state variable
 dogfollow = false;
+
+//Runonce-variables for tree falling.
+treerunonce = false;
+
