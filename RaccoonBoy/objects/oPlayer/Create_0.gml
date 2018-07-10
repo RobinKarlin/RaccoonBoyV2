@@ -7,9 +7,8 @@
 //Gamepad stuffs
 gamepad_set_axis_deadzone(0, 0.3);
 
-//layer_id
-playerlayerID = layer_get_id("Player");
-tilemap = layer_tilemap_get_id("CollisionTiles")
+//layer_id is in Room Start event
+
 //old variables
 old_movex = 0;
 old_movey = 0;

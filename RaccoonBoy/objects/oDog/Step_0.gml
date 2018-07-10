@@ -161,22 +161,22 @@ if oQuestTracker.dogfollow = false && collision_circle(x, y, 500, oCarpenter, fa
 	//If dog is too far to the right of carpenter
 	if x > (oCarpenter.x - 32)
 	{
-		x -= bugspeed * 1;
+		x -= npcspeed * 1;
 	}
 	//If dog is too far to the left of carpenter
 	if x < (oCarpenter.x -32)
 	{
-		x += bugspeed * 1;
+		x += npcspeed * 1;
 	}
 	//If dog is below of carpenter
 	if y > (oCarpenter.y)
 	{
-		y -= bugspeed * 1;
+		y -= npcspeed * 1;
 	}
 	//If dog is above of carpenter
 	if y < (oCarpenter.y)
 	{
-		y += bugspeed * 1;
+		y += npcspeed * 1;
 	}
 	
 }

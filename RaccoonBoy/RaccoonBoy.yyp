@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "026c5a61-4e79-41ae-88e8-8918cb06fecc",
+            "Value": {
+                "id": "ba8a5725-f466-4080-a88e-4343abc077a0",
+                "resourcePath": "rooms\\NewTemplateRoom\\NewTemplateRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "02f8d117-6dd3-4496-8edb-8cc0b3dc067a",
             "Value": {
                 "id": "5471f9e0-15e3-404f-ae19-20daf8305962",
@@ -655,14 +663,6 @@
             }
         },
         {
-            "Key": "4e669110-bd89-4bd4-a648-b7fe6c17cff2",
-            "Value": {
-                "id": "b1582e6a-1e42-4338-8b07-13728683af4a",
-                "resourcePath": "rooms\\rTemplateroom\\rTemplateroom.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "4eaf7c38-819e-4192-b03f-aef5d8e814d7",
             "Value": {
                 "id": "01dfe745-e168-43e0-b3a7-a3439d2ee387",
@@ -1247,14 +1247,6 @@
             }
         },
         {
-            "Key": "9af64606-ada0-44c3-960d-dcfdbad9cddd",
-            "Value": {
-                "id": "4942f55f-89a7-4025-9546-a9c47aaf890c",
-                "resourcePath": "rooms\\rDevtest\\rDevtest.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "9d4c83f4-e94a-41dd-a7f2-1af977a700fc",
             "Value": {
                 "id": "9714754c-9437-4ab6-a092-c9da33117c9f",
@@ -1348,14 +1340,6 @@
                 "id": "b3e4cd10-b055-4572-a1f4-79cf7a4a5926",
                 "resourcePath": "objects\\oBugTemplate\\oBugTemplate.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a7d13be3-77d4-46c4-b1cc-420abac1c8ab",
-            "Value": {
-                "id": "7c43f0a9-3446-445d-b46f-cac23f60bd39",
-                "resourcePath": "rooms\\lolleh\\lolleh.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1596,14 +1580,6 @@
                 "id": "720a8fa7-4cdb-4ec0-b89b-a743e3fdf49e",
                 "resourcePath": "sprites\\sPlayerFront\\sPlayerFront.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c71d5b63-bc9d-4416-8741-b3106a86eec9",
-            "Value": {
-                "id": "5dccf59b-800c-4aef-9dc7-29881badfb60",
-                "resourcePath": "rooms\\rHouse\\rHouse.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

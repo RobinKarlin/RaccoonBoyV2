@@ -50,3 +50,4 @@ if global.debug = true
 draw_text(x+20,y+20, string(inputdelay))
 }
 }
+

@@ -1,1 +1,0 @@
-room_destination = 1;

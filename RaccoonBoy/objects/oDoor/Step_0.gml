@@ -6,5 +6,3 @@ if collision_circle(x, y, 16, oPlayer, false, true) && oPlayer.key_button2 = tru
 	image_speed = 1;
 }
 
-
-
